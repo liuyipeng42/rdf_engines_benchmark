@@ -13,7 +13,7 @@ git submodule update --init
 
 ## Datasets
 
-Datasets are available [here](https://mega.nz/folder/4r1iRCZZ#JKCi9mCCMKOaXadr73kDdQ). Place RDF files and queries into their respective directories.
+Datasets are available [here](https://mega.nz/folder/5ulXkYZT#j54ThyZBnX34_VANelVWoA). Place RDF files and queries into their respective directories.
 
 ## Usage
 
