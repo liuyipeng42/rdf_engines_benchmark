@@ -1,0 +1,1 @@
+SELECT DISTINCT ?x0 ?r3 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region> . ?x0 ?r3 <http://dbpedia.org/resource/Iran> } 

@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://dbpedia.org/resource/Jordan_Nagai> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Bob_Peterson_(filmmaker)> <http://xmlns.com/foaf/0.1/name> ?name2 } 

@@ -1,0 +1,1 @@
+SELECT * WHERE { ?subject ?predicat <http://dbpedia.org/resource/Resource> } 

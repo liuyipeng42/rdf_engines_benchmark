@@ -1,0 +1,1 @@
+SELECT ?artist WHERE { ?album <http://dbpedia.org/ontology/musicalArtist> ?artist } 

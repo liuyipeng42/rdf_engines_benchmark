@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://dbpedia.org/resource/Arsenal_F.C.> <http://dbpedia.org/property/name> ?player . ?player <http://dbpedia.org/ontology/birthPlace> ?city . ?player <http://dbpedia.org/ontology/birthDate> ?dob . ?city <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long . ?player <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat } 

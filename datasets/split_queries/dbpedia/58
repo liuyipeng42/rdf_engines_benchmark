@@ -1,0 +1,1 @@
+SELECT ?river WHERE { ?river <http://dbpedia.org/ontology/mouthMountain> ?lake } 

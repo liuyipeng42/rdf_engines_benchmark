@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Jean_Ladri%C3%A8re> ?o ?p } 

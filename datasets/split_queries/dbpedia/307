@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://dbpedia.org/resource/Anthony_Rapp> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Jesse_L._Martin> <http://dbpedia.org/ontology/birthName> ?name2 } 

@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://dbpedia.org/resource/Paris> <http://dbpedia.org/ontology/area> ?area . <http://dbpedia.org/resource/Paris> <http://dbpedia.org/ontology/populationTotal> ?population . <http://dbpedia.org/resource/Paris> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . <http://dbpedia.org/resource/Paris> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long } 

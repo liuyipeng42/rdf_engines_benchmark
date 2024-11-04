@@ -1,0 +1,1 @@
+SELECT ?Place ?Country ?Population WHERE { ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?Place <http://dbpedia.org/property/country> ?Population . ?Place <http://dbpedia.org/property/postalCode> ?Country } 

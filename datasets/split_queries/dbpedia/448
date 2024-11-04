@@ -1,0 +1,1 @@
+SELECT DISTINCT ?x1 WHERE { <http://dbpedia.org/resource/Iran> <http://dbpedia.org/ontology/capital> ?x1 } 

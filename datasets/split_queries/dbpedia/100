@@ -1,0 +1,1 @@
+SELECT DISTINCT ?y WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> . ?x <http://dbpedia.org/ontology/populationTotal> ?y . ?x <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Canada> } 

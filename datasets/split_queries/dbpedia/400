@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Beno%C3%AEt_Magimel> ?p ?v } 

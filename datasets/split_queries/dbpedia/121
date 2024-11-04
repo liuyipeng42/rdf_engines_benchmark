@@ -1,0 +1,1 @@
+SELECT ?p ?l ?m WHERE { ?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?l <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?p <http://dbpedia.org/property/birthplace> ?l . ?p <http://dbpedia.org/property/name> ?m } 

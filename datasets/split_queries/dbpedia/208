@@ -1,0 +1,1 @@
+SELECT ?v WHERE { <http://dbpedia.org/resource/Trinidad_and_Tobago> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 

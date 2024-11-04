@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://dbpedia.org/resource/William_Talman_(actor)> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/William_Talman_(actor)> <http://dbpedia.org/ontology/birthName> ?name2 } 

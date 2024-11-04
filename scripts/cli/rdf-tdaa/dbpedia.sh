@@ -1,0 +1,1 @@
+./rdf_systems/rdf-tdaa/bin/rdftdaa query -d ./rdf_systems/rdf-tdaa/bin/DB_DATA_ARCHIVE/dbpedia -f ./datasets/queries/dbpedia_queries.txt | grep 'query cost'  > ./results/cli/dbpedia/rdf-tdaa/results.txt

@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Alastair_Galbraith_(actor)> ?p ?v } 

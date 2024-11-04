@@ -1,0 +1,1 @@
+SELECT DISTINCT ?x2 WHERE { ?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> . ?x1 <http://dbpedia.org/property/name> "Big Fish"@en . ?x1 <http://dbpedia.org/ontology/writer> ?x0 . ?x0 <http://www.w3.org/2000/01/rdf-schema#label> ?x2 } 

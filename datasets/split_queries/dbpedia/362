@@ -1,0 +1,1 @@
+SELECT ?V WHERE { ?V <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Dia_Mirza> . ?V <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Salman_Khan> } 

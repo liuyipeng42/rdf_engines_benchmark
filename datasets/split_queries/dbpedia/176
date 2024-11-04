@@ -1,0 +1,1 @@
+SELECT ?s ?v WHERE { ?s ?v <http://dbpedia.org/resource/Planet> }

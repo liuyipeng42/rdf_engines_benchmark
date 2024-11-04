@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Body_Parts_(1991_film)> ?p ?v } 

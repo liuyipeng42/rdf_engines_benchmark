@@ -1,0 +1,1 @@
+SELECT DISTINCT ?subject WHERE { ?subject <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Populated_places_in_Kohgiluyeh_and_Boyer-Ahmad_Province> } 

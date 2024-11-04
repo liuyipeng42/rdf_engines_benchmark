@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Edme_Mentelle> ?o ?p } 

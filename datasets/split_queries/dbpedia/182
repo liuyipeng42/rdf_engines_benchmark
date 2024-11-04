@@ -1,0 +1,1 @@
+SELECT DISTINCT ?director ?x WHERE { ?movie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> . ?movie <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Poland> . ?movie <http://dbpedia.org/ontology/director> ?director . ?director <http://dbpedia.org/ontology/deathPlace> ?x } 

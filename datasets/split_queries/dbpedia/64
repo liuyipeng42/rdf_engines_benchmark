@@ -1,0 +1,1 @@
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/lowerAge> ?object } 

@@ -1,0 +1,1 @@
+SELECT * WHERE { ?r <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> . ?r <http://dbpedia.org/ontology/sourceCountry> ?c1 . ?r <http://dbpedia.org/ontology/sourceCountry> ?c2 } 

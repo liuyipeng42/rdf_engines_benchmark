@@ -1,0 +1,1 @@
+SELECT ?s WHERE { ?s <http://dbpedia.org/ontology/party> <http://dbpedia.org/resource/Republican_Party_(United_States)> } 

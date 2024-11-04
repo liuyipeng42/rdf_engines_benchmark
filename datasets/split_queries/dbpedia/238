@@ -1,0 +1,1 @@
+SELECT ?x ?y WHERE { <http://dbpedia.org/resource/Rhodes_scholars> ?x ?y } 

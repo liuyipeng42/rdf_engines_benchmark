@@ -1,0 +1,1 @@
+SELECT ?x WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow> . ?y <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionStation> . ?x ?p1 ?y . ?x ?p2 <http://dbpedia.org/resource/Neil_Patrick_Harris> } 

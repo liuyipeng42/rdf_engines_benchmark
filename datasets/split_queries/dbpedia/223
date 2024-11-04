@@ -1,0 +1,1 @@
+SELECT DISTINCT ?x0 ?r0 ?r1 WHERE { <http://dbpedia.org/resource/Casablanca_(film)> ?r0 <http://dbpedia.org/ontology/Film> . ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . <http://dbpedia.org/resource/Casablanca_(film)> ?r1 ?x0 } 

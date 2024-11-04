@@ -1,0 +1,1 @@
+SELECT ?type WHERE { <http://dbpedia.org/resource/Isa_bin_Salman_Al_Khalifa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 

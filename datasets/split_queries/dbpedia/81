@@ -1,0 +1,1 @@
+SELECT ?artistName ?albumName WHERE { ?album <http://dbpedia.org/ontology/producer> <http://dbpedia.org/resource/Timbaland> . ?album <http://dbpedia.org/ontology/musicalArtist> ?artist . ?album <http://www.w3.org/2000/01/rdf-schema#label> ?albumName . ?album <http://www.w3.org/2000/01/rdf-schema#label> ?artistName } 

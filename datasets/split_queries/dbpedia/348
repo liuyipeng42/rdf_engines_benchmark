@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Pedro_Almod%C3%B3var> ?p ?v } 

@@ -1,0 +1,1 @@
+SELECT DISTINCT ?a WHERE { ?m <http://dbpedia.org/ontology/starring> ?a . ?m <http://dbpedia.org/ontology/country> ?c2 . ?c2 <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/English_language> . ?a <http://dbpedia.org/property/birthPlace> ?c1 . ?c1 <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/German_language> } 

@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/James_R._Webb_(writer)> ?p ?v } 

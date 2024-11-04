@@ -1,0 +1,1 @@
+SELECT ?rel ?obj WHERE { <http://dbpedia.org/resource/Syria> ?rel ?obj }

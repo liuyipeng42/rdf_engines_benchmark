@@ -1,0 +1,1 @@
+SELECT DISTINCT ?x1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Band> . ?x0 <http://www.w3.org/2000/01/rdf-schema#label> "Pink Floyd"@en . ?x0 <http://dbpedia.org/property/yearsActive> ?x1 } 

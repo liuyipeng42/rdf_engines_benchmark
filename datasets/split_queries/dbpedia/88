@@ -1,0 +1,1 @@
+SELECT ?spieler ?verein WHERE { ?spieler <http://dbpedia.org/property/clubnumber> "11"^^<http://www.w3.org/2001/XMLSchema#integer> . ?spieler <http://dbpedia.org/property/currentclub> ?verein }

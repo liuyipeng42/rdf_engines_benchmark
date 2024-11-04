@@ -1,0 +1,1 @@
+SELECT DISTINCT ?r10 WHERE { <http://dbpedia.org/resource/Achaemenid_Empire> ?r10 <http://dbpedia.org/ontology/Place> } 

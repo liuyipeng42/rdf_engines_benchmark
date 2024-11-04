@@ -1,0 +1,554 @@
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/years> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/starring> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/runtime> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/runtime> ?object } 
+SELECT ?x WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Olympics> . ?x ?p ?o } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/releaseDate> ?object } 
+SELECT * WHERE { ?film <http://dbpedia.org/ontology/writer> ?writer } 
+SELECT ?cityName ?country WHERE { ?city <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> . ?city <http://www.w3.org/2000/01/rdf-schema#label> ?cityName . ?city <http://dbpedia.org/ontology/country> ?country } 
+SELECT ?subject WHERE { ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Animal> . ?subject <http://dbpedia.org/property/name> ?o } 
+SELECT DISTINCT ?subject WHERE { ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> } 
+SELECT DISTINCT ?film WHERE { ?film <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> } 
+SELECT DISTINCT ?attore WHERE { ?film <http://dbpedia.org/ontology/starring> ?attore } 
+SELECT ?pers ?fio ?born ?prof WHERE { ?pers <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?pers <http://dbpedia.org/property/birthName> ?fio . ?pers <http://dbpedia.org/property/birthDate> ?born . ?pers <http://dbpedia.org/property/birthPlace> ?prof } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?x0 ?r1 <http://dbpedia.org/resource/Iran> } 
+SELECT ?artist WHERE { ?album <http://dbpedia.org/ontology/musicalArtist> ?artist } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/industry> ?object } 
+SELECT DISTINCT ?ot ?st WHERE { ?s <http://dbpedia.org/property/sourceRegion> ?o . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?ot . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?st } 
+SELECT ?p WHERE { ?instance <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Prison> . ?instance ?p ?o } 
+SELECT ?x WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/dbtax/Sound> . ?y <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/dbtax/Convention> . ?x ?p1 ?y }
+SELECT ?title WHERE { ?title <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book> }
+SELECT ?title ?author WHERE { ?title <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book> . ?title <http://dbpedia.org/ontology/author> ?author } 
+SELECT DISTINCT ?s ?author WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book> . ?s <http://dbpedia.org/ontology/author> ?author } 
+SELECT DISTINCT ?s ?author WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book> . ?s <http://dbpedia.org/ontology/author> ?author } 
+SELECT DISTINCT ?uri ?x WHERE { ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Animal> . ?uri <http://dbpedia.org/ontology/conservationStatus> ?x } 
+SELECT ?subject WHERE { ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q215380> . ?subject <http://dbpedia.org/property/name> ?o } 
+SELECT ?subject WHERE { ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://umbel.org/umbel/rc/Athlete> . ?subject <http://dbpedia.org/property/name> ?o } 
+SELECT ?subject WHERE { ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BodyOfWater> . ?subject <http://dbpedia.org/property/name> ?o } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/editing> ?object } 
+SELECT DISTINCT ?p ?n WHERE { ?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Planet> . ?p <http://www.w3.org/2000/01/rdf-schema#label> ?n } 
+SELECT DISTINCT ?film_title ?film_abstract WHERE { ?film_title <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> . ?film_title <http://www.w3.org/2000/01/rdf-schema#comment> ?film_abstract } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/locationCity> ?object } 
+SELECT * WHERE { ?COLOR <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerClub> } 
+SELECT DISTINCT ?x1 ?y WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow> . ?x0 <http://dbpedia.org/property/showName> ?y . ?x0 <http://dbpedia.org/property/country> ?x1 } 
+SELECT * WHERE { ?r <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> . ?r <http://dbpedia.org/ontology/sourceCountry> ?c1 . ?r <http://dbpedia.org/ontology/sourceCountry> ?c2 } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/commissioningDate> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/mountainRange> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/ideology> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/college> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/primeMinister> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/primeMinister> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/buildingStartDate> ?object } 
+SELECT ?s WHERE { ?s <http://dbpedia.org/ontology/party> <http://dbpedia.org/resource/Republican_Party_(United_States)> } 
+SELECT ?body WHERE { ?body <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/CelestialBody> } 
+SELECT ?subject WHERE { ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q11774891> . ?subject <http://dbpedia.org/property/name> ?o } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/numberBuilt> ?object } 
+SELECT ?subject WHERE { ?subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q23397> . ?subject <http://dbpedia.org/property/name> ?o } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/county> ?object } 
+SELECT * WHERE { ?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?influenced <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?p <http://dbpedia.org/ontology/influenced> ?influenced } 
+SELECT * WHERE { ?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?p <http://dbpedia.org/ontology/influenced> ?influenced . ?influenced <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> } 
+SELECT ?river WHERE { ?river <http://dbpedia.org/ontology/mouthMountain> ?lake } 
+SELECT ?river WHERE { ?river <http://dbpedia.org/ontology/mouthPlace> ?lake } 
+SELECT DISTINCT ?ot ?st WHERE { ?s <http://dbpedia.org/property/sourceConfluenceRegion> ?o . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?ot . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?st } 
+SELECT DISTINCT ?instance WHERE { ?instance <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q11032> } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/training> ?object } 
+SELECT DISTINCT ?bank ?label WHERE { ?bank <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Bank> . ?bank <http://www.w3.org/2000/01/rdf-schema#label> ?label } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/lowerAge> ?object } 
+SELECT DISTINCT ?instance WHERE { ?instance <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/casNumber> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/usedInWar> ?object } 
+SELECT * WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Olympics> } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/floorArea> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/inflow> ?object } 
+SELECT * WHERE { ?ce <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> . ?ce <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/English_language> . ?m <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> . ?m <http://dbpedia.org/property/country> ?ce }
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/crosses> ?object } 
+SELECT DISTINCT ?uri WHERE { ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> } 
+SELECT ?Place ?Country ?Population WHERE { ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?Place <http://dbpedia.org/property/country> ?Country . ?Place <http://dbpedia.org/property/postalCode> ?Population } 
+SELECT ?Place ?Country ?Population WHERE { ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?Place <http://dbpedia.org/property/postalCode> ?Population . ?Place <http://dbpedia.org/property/country> ?Country } 
+SELECT ?Place ?Country ?Population WHERE { ?Place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?Place <http://dbpedia.org/property/country> ?Population . ?Place <http://dbpedia.org/property/postalCode> ?Country } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/orbitalPeriod> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/countySeat> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/countySeat> ?object } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Paul_Walker> <http://www.w3.org/2000/01/rdf-schema#label> ?label . ?starring <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Paul_Walker> . ?starring <http://dbpedia.org/ontology/abstract> ?abstract } 
+SELECT ?artistName ?albumName WHERE { ?album <http://dbpedia.org/ontology/producer> <http://dbpedia.org/resource/Timbaland> . ?album <http://dbpedia.org/ontology/musicalArtist> ?artist . ?album <http://www.w3.org/2000/01/rdf-schema#label> ?albumName . ?album <http://www.w3.org/2000/01/rdf-schema#label> ?artistName } 
+SELECT DISTINCT ?x0 ?x6 ?r0 ?r1 ?r5 WHERE { <http://dbpedia.org/resource/Casablanca_(film)> ?r0 <http://dbpedia.org/ontology/Film> . ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . <http://dbpedia.org/resource/Casablanca_(film)> ?r1 ?x0 . ?x6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?x6 ?r5 <http://dbpedia.org/resource/Roman_Empire> } 
+SELECT DISTINCT ?x0 ?x6 ?r0 ?r1 ?r5 WHERE { <http://dbpedia.org/resource/Casablanca_(film)> ?r0 <http://dbpedia.org/ontology/Film> . ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . <http://dbpedia.org/resource/Casablanca_(film)> ?r1 ?x0 . ?x6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?x6 ?r5 <http://dbpedia.org/resource/Roman_Empire> } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/discharge> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/billed> ?object } 
+SELECT DISTINCT ?x0 ?x6 ?r0 ?r1 ?r7 WHERE { <http://dbpedia.org/resource/Casablanca_(film)> ?r0 <http://dbpedia.org/ontology/Film> . ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . <http://dbpedia.org/resource/Casablanca_(film)> ?r1 ?x0 . ?x6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?x6 ?r7 <http://dbpedia.org/resource/Byzantine_Empire> } 
+SELECT DISTINCT ?x0 ?x6 ?r0 ?r1 ?r7 WHERE { <http://dbpedia.org/resource/Casablanca_(film)> ?r0 <http://dbpedia.org/ontology/Film> . ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . <http://dbpedia.org/resource/Casablanca_(film)> ?r1 ?x0 . ?x6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?x6 ?r7 <http://dbpedia.org/resource/Byzantine_Empire> } 
+SELECT ?spieler ?verein WHERE { ?spieler <http://dbpedia.org/property/clubnumber> "11"^^<http://www.w3.org/2001/XMLSchema#integer> . ?spieler <http://dbpedia.org/property/currentclub> ?verein }
+SELECT DISTINCT ?ot ?st WHERE { ?s <http://dbpedia.org/property/capitalRegion> ?o . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?ot . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?st } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/premiereDate> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/numberOfFilms> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/championInSingleMale> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/ruralMunicipality> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/mouthCountry> ?object } 
+SELECT DISTINCT ?ot ?st WHERE { ?s <http://dbpedia.org/property/capitalLocation> ?o . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?ot . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?st } 
+SELECT ?a ?b WHERE { ?a <http://dbpedia.org/ontology/branchFrom> ?b } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete> . ?s ?p ?o } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/pistonStroke> ?object } 
+SELECT DISTINCT ?x0 ?x6 ?r0 ?r1 ?r3 WHERE { <http://dbpedia.org/resource/Casablanca_(film)> ?r0 <http://dbpedia.org/ontology/Film> . ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . <http://dbpedia.org/resource/Casablanca_(film)> ?r1 ?x0 . ?x6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?x6 ?r3 <http://dbpedia.org/resource/Ancient_Rome> } 
+SELECT DISTINCT ?y WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> . ?x <http://dbpedia.org/ontology/populationTotal> ?y . ?x <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Canada> } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/WrittenWork> . ?s ?p ?o } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist> . ?s ?p ?o } 
+SELECT ?Country WHERE { <http://dbpedia.org/resource/Belgium> <http://dbpedia.org/ontology/timeZone> ?CentraEurope . ?CentralEurope <http://dbpedia.org/property/timeZone> ?Country } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/casSupplemental> ?object } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Eric_Clapton> ?p ?v } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Event> . ?s ?p ?o } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MusicalArtist> . ?s ?p ?o } 
+SELECT DISTINCT ?p ?name ?pic WHERE { ?p <http://dbpedia.org/property/name> ?name . ?p <http://dbpedia.org/property/shortDescription> "Greek politician"@en . ?p <http://xmlns.com/foaf/0.1/depiction> ?pic } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> . ?s ?p ?o } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SportsTeam> . ?s ?p ?o } 
+SELECT DISTINCT * WHERE { ?album <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Album> . ?album <http://www.w3.org/2000/01/rdf-schema#label> ?albumName . ?album <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Green_Day> } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Liv_Tyler> ?p ?v } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Lake> . ?s ?p ?o } 
+SELECT DISTINCT ?university ?property ?object WHERE { ?university <http://www.w3.org/2000/01/rdf-schema#label> "University of California, Berkeley"@en . ?university ?property ?object } 
+SELECT ?rel ?obj WHERE { <http://dbpedia.org/resource/Syria> ?rel ?obj }
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PeriodicalLiterature> . ?s ?p ?o } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Haing_S._Ngor> ?p ?v } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionStation> . ?s ?p ?o } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SportsEvent> . ?s ?p ?o } 
+SELECT * WHERE { <http://dbpedia.org/resource/Aamir_Khan> ?p ?o } 
+SELECT ?p ?l ?m WHERE { ?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?l <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . ?p <http://dbpedia.org/property/birthplace> ?l . ?p <http://dbpedia.org/property/name> ?m } 
+SELECT ?p ?o WHERE { <http://dbpedia.org/resource/The_Shawshank_Redemption> ?p ?o }
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RugbyPlayer> . ?s ?p ?o } 
+SELECT ?predicate ?object WHERE { <http://dbpedia.org/resource/Glenn_McGrath> ?predicate ?object } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RadioStation> . ?s ?p ?o } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Coach> . ?s ?p ?o } 
+SELECT ?n WHERE { ?n <http://dbpedia.org/property/name> ?name . ?n <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Braunschweig> }
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/IceHockeyPlayer> . ?s ?p ?o } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Kelly_Lynch> ?p ?v } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Ship> . ?s ?p ?o } 
+SELECT ?n ?b WHERE { ?n <http://dbpedia.org/property/name> ?name . ?n <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Braunschweig> . ?n <http://dbpedia.org/property/birthDate> ?b } 
+SELECT ?n ?b WHERE { ?n <http://dbpedia.org/property/name> ?name . ?n <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Braunschweig> . ?n <http://dbpedia.org/property/birthDate> ?b } 
+SELECT ?property ?value WHERE { <http://dbpedia.org/resource/Mount_Monadnock> ?property ?value } 
+SELECT ?predicate ?object WHERE { <http://dbpedia.org/resource/Coleen_Rooney> ?predicate ?object } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SportFacility> . ?s ?p ?o } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Paula_Marshall> ?p ?v } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Edme_Mentelle> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Antoine_Meillet> ?o ?p } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Comic> . ?s ?p ?o } 
+SELECT DISTINCT ?CentraEurope ?Country WHERE { <http://dbpedia.org/resource/Belgium> <http://dbpedia.org/ontology/timeZone> ?CentraEurope . ?CentralEurope <http://dbpedia.org/property/timeZone> ?Country } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryConflict> . ?s ?p ?o } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/onChromosome> ?object } 
+SELECT ?a ?f WHERE { ?a <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Best_Supporting_Actor_Academy_Award_winners> . ?a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . ?f <http://dbpedia.org/ontology/starring> ?a . ?f <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Films_featuring_a_Best_Supporting_Actor_Academy_Award_winning_performance> } 
+SELECT ?property ?value WHERE { <http://dbpedia.org/resource/Horizon_High_School_(Thornton,_Colorado)> ?property ?value } 
+SELECT DISTINCT ?n ?b WHERE { ?n <http://dbpedia.org/property/name> ?name . ?n <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Braunschweig> . ?n <http://dbpedia.org/property/birthDate> ?b } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Tournament> . ?s ?p ?o } 
+SELECT DISTINCT ?a WHERE { ?m <http://dbpedia.org/ontology/starring> ?a . ?m <http://dbpedia.org/ontology/country> ?c2 . ?c2 <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/English_language> . ?a <http://dbpedia.org/property/birthPlace> ?c1 . ?c1 <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/German_language> } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/recentWinner> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/supplementalDraftYear> ?object } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChemicalCompound> . ?s ?p ?o } 
+SELECT * WHERE { <http://dbpedia.org/resource/Arsenal_F.C.> <http://dbpedia.org/property/name> ?player . ?player <http://dbpedia.org/ontology/birthPlace> ?city . ?player <http://dbpedia.org/ontology/birthDate> ?dob . ?city <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long . ?player <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Ethel_Hill> ?p ?v } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Petra_Marklund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/404> ?p ?o }
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/404> ?p ?o }
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/maximumTemperature> ?object } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Gisele_MacKenzie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT DISTINCT ?x2 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . ?x0 <http://www.w3.org/2000/01/rdf-schema#label> ?x2 . ?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow> . ?x1 <http://dbpedia.org/property/showName> "Gravity"@en . ?x1 <http://dbpedia.org/property/starring> ?x0 } 
+SELECT ?t WHERE { <http://dbpedia.org/resource/Stefan_Rowecki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?t } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Isa_bin_Salman_Al_Khalifa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/aircraftHelicopterAttack> ?object } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/aircraftHelicopterAttack> ?object } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Rick_Rhoden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/James_Callis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Puyehue-CordÃ³n_Caulle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Arthur_L._Horwich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Pete_Ham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?fio ?born ?prof WHERE { ?pers <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?pers <http://dbpedia.org/property/birthName> ?fio . ?pers <http://dbpedia.org/property/birthDate> ?born . ?pers <http://dbpedia.org/property/profession> ?prof } 
+SELECT ?pers ?fio ?born ?prof WHERE { ?pers <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?pers <http://dbpedia.org/property/birthName> ?fio . ?pers <http://dbpedia.org/property/birthDate> ?born . ?pers <http://dbpedia.org/property/profession> ?prof } 
+SELECT * WHERE { <http://dbpedia.org/resource/Imran> <http://dbpedia.org/ontology/wikiPageDisambiguates> ?URI } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Stanley_Kramer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Super_Mario_World_(TV_series)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT DISTINCT ?p WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> . ?s ?p ?o } 
+SELECT ?rel ?obj WHERE { <http://dbpedia.org/resource/French> ?rel ?obj }
+SELECT ?t WHERE { <http://dbpedia.org/resource/Kim_Han-min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?t } 
+SELECT ?s ?v WHERE { ?s ?v <http://dbpedia.org/resource/Planet> }
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/managementPosition> ?object } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Maybach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Park_Ridge,_Illinois> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Al-Ahram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Kate_Lorig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT DISTINCT ?director ?x WHERE { ?movie <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> . ?movie <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Poland> . ?movie <http://dbpedia.org/ontology/director> ?director . ?director <http://dbpedia.org/ontology/deathPlace> ?x } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/WXMT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT DISTINCT ?x2 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . ?x0 <http://www.w3.org/2000/01/rdf-schema#label> "Steve Jobs"@en . ?x0 <http://dbpedia.org/ontology/birthPlace> ?x1 . ?x1 <http://www.w3.org/2000/01/rdf-schema#label> ?x2 } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Dubai_Marina> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Cape_St._Vincent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/aircraftHelicopterTransport> ?object } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Hobby_Lobby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Alastair_Galbraith_(actor)> ?p ?v } 
+SELECT ?lat ?long ?country0 ?lat0 ?long0 ?country2 ?lat2 ?long2 ?country3 ?lat3 ?long3 WHERE { <http://dbpedia.org/resource/South_Sudan> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . <http://dbpedia.org/resource/South_Sudan> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long . <http://dbpedia.org/resource/Rumbek> <http://dbpedia.org/ontology/country> ?country0 . <http://dbpedia.org/resource/Rumbek> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat0 . <http://dbpedia.org/resource/Rumbek> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long0 . <http://dbpedia.org/resource/Leer> <http://dbpedia.org/ontology/country> ?country2 . <http://dbpedia.org/resource/Leer> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat2 . <http://dbpedia.org/resource/Leer> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long2 . <http://dbpedia.org/resource/Juba> <http://dbpedia.org/ontology/country> ?country3 . <http://dbpedia.org/resource/Juba> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat3 . <http://dbpedia.org/resource/Juba> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long3 }
+SELECT ?lat ?long ?country0 ?lat0 ?long0 ?country2 ?lat2 ?long2 ?country3 ?lat3 ?long3 WHERE { <http://dbpedia.org/resource/South_Sudan> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . <http://dbpedia.org/resource/South_Sudan> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long . <http://dbpedia.org/resource/Rumbek> <http://dbpedia.org/ontology/country> ?country0 . <http://dbpedia.org/resource/Rumbek> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat0 . <http://dbpedia.org/resource/Rumbek> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long0 . <http://dbpedia.org/resource/Leer> <http://dbpedia.org/ontology/country> ?country2 . <http://dbpedia.org/resource/Leer> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat2 . <http://dbpedia.org/resource/Leer> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long2 . <http://dbpedia.org/resource/Juba> <http://dbpedia.org/ontology/country> ?country3 . <http://dbpedia.org/resource/Juba> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat3 . <http://dbpedia.org/resource/Juba> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long3 }
+SELECT ?type WHERE { <http://dbpedia.org/resource/USC_Interactive_Media_&_Games_Division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/X_display_manager_(program_type)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?o1 WHERE { <http://dbpedia.org/resource/The_Atticus_Institute> <http://purl.org/dc/terms/subject> ?o . ?o <http://www.w3.org/2004/02/skos/core#broader> ?o1 } 
+SELECT DISTINCT * WHERE { ?album <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Album> . ?album <http://www.w3.org/2000/01/rdf-schema#label> ?albumName . ?album <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Ed_Sheeran> } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Beebe_Steven_Lynk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/2013_Denver_Broncos_season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/British_Racing_Drivers'_Club> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?uri ?label WHERE { ?uri <http://www.w3.org/2000/01/rdf-schema#label> "The Beatles"@en . ?uri <http://www.w3.org/2000/01/rdf-schema#label> ?label } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Aviion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Category:Businesspeople_from_Massachusetts> ?p ?v } 
+SELECT ?Person ?WORK WHERE { <http://dbpedia.org/resource/Doraemon> <http://dbpedia.org/ontology/author> ?Person . ?WORK <http://dbpedia.org/ontology/author> ?Person }
+SELECT ?v WHERE { <http://dbpedia.org/resource/Nebraska> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Casio_Exilim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/The_Bahamas> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Saint_Lucia> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Nebraska> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Trinidad_and_Tobago> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Saint_Lucia> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT DISTINCT ?x1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . ?x0 <http://www.w3.org/2000/01/rdf-schema#label> "Ronaldo"@it . ?x0 <http://www.w3.org/2000/01/rdf-schema#comment> ?x1 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Category:Leaders_of_the_Opposition_(United_Kingdom)> ?p ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Tennessee> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Ivory_Coast> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Ivory_Coast> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Costa_Rica> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Guinea> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Arkansas> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Papua_New_Guinea> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Tennessee> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Fiji> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Niger> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Guest_(surname)> ?Property ?Value } 
+SELECT DISTINCT ?x0 ?r0 ?r1 WHERE { <http://dbpedia.org/resource/Casablanca_(film)> ?r0 <http://dbpedia.org/ontology/Film> . ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . <http://dbpedia.org/resource/Casablanca_(film)> ?r1 ?x0 } 
+SELECT ?o1 WHERE { <http://dbpedia.org/resource/Babak_Payami> <http://purl.org/dc/terms/subject> ?o . ?o <http://www.w3.org/2004/02/skos/core#broader> ?o1 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/England__2> ?p ?v } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/England__5> ?p ?v } 
+SELECT ?v WHERE { <http://dbpedia.org/resource/Portugal> <http://www.w3.org/2000/01/rdf-schema#comment> ?v } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Category:Sedgefield_(borough)> ?p ?v } 
+SELECT ?name WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Olympics> . ?x <http://dbpedia.org/ontology/goldMedalist> ?m . ?m <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?m <http://dbpedia.org/ontology/birthName> ?name } 
+SELECT DISTINCT ?x2 WHERE { ?x1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> . ?x1 <http://dbpedia.org/property/name> "Big Fish"@en . ?x1 <http://dbpedia.org/ontology/writer> ?x0 . ?x0 <http://www.w3.org/2000/01/rdf-schema#label> ?x2 } 
+SELECT ?player WHERE { ?player <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerPlayer> . ?player <http://dbpedia.org/property/currentclub> <http://dbpedia.org/resource/A.S._Roma> . ?player <http://dbpedia.org/property/position> <http://dbpedia.org/resource/Forward_(association_football)> }
+SELECT ?person ?type WHERE { ?person <http://dbpedia.org/ontology/wikiPageID> "40707"^^<http://www.w3.org/2001/XMLSchema#integer> . ?person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type }
+SELECT * WHERE { ?subject ?predicat <http://dbpedia.org/resource/Resource> }
+SELECT ?type WHERE { <http://dbpedia.org/resource/Find_815> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?lat ?long WHERE { ?location <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Location> . ?location <http://xmlns.com/foaf/0.1/name> "France"@en . ?location <http://dbpedia.org/ontology/capital> ?v . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long } 
+SELECT DISTINCT ?uri WHERE { ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty> . ?uri <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Greece> . ?uri <http://dbpedia.org/ontology/ideology> <http://dbpedia.org/resource/Pro-Europeanism> } 
+SELECT * WHERE { <http://dbpedia.org/resource/Sports> ?p ?o } 
+SELECT ?x ?y WHERE { <http://dbpedia.org/resource/Rhodes_scholars> ?x ?y } 
+SELECT * WHERE { <http://dbpedia.org/resource/Multitasking> ?Property ?Value } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Body_Parts_(1991_film)> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Dummies> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Man_vs._Man> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Shruti> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Fingers> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Attendants> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Developers> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Cars> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Svizzera> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Round_and_round> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Stars> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Money_attracts_money> ?Property ?Value } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/Desktop_Management_Interface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/James_R._Webb_(writer)> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Settings> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Sinks> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Quotes> ?Property ?Value } 
+SELECT ?predicate ?object WHERE { <http://dbpedia.org/resource/Jonas_L.A.> ?predicate ?object } 
+SELECT * WHERE { <http://dbpedia.org/resource/Talkies> ?Property ?Value } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Stonewall_(film)> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Students> ?Property ?Value } 
+SELECT * WHERE { <http://dbpedia.org/resource/Surprising> ?Property ?Value } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Antoine_Arnauld_(1612-1694)> ?o ?p } 
+SELECT ?type WHERE { <http://dbpedia.org/resource/1847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT ?player WHERE { ?player <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerPlayer> . ?player <http://dbpedia.org/property/currentclub> <http://dbpedia.org/resource/Borussia_Dortmund> . ?player <http://dbpedia.org/property/nationalteam> <http://dbpedia.org/resource/Germany_national_football_team> }
+SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Rhine> <http://dbpedia.org/property/country> ?string . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> . ?uri <http://www.w3.org/2000/01/rdf-schema#label> ?string } 
+SELECT DISTINCT ?x0 ?r3 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region> . ?x0 ?r3 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?x0 ?r3 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region> . ?x0 ?r3 <http://dbpedia.org/resource/Iran> } 
+SELECT * WHERE { ?subject ?predicat <http://dbpedia.org/resource/Newspaper_circulation> } 
+SELECT ?x WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow> . ?y <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionStation> . ?x ?p1 ?y . ?x ?p2 <http://dbpedia.org/resource/Neil_Patrick_Harris> } 
+SELECT ?person ?type WHERE { ?person <http://dbpedia.org/ontology/wikiPageID> 12062 . ?person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT * WHERE { <http://dbpedia.org/resource/Ellen_DeGeneres> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Ellen_DeGeneres> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?o1 WHERE { <http://dbpedia.org/resource/Kalpvriksh> <http://purl.org/dc/terms/subject> ?o . ?o <http://www.w3.org/2004/02/skos/core#broader> ?o1 } 
+SELECT ?person ?type WHERE { ?person <http://dbpedia.org/ontology/wikiPageID> "21937"^^<http://www.w3.org/2001/XMLSchema#integer> . ?person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type }
+SELECT ?lat ?long ?country2 ?long2 ?lat3 ?long3 ?country4 ?lat4 ?country5 ?lat5 ?long5 WHERE { <http://dbpedia.org/resource/Canada> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . <http://dbpedia.org/resource/Canada> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long . <http://dbpedia.org/resource/Montreal> <http://dbpedia.org/ontology/country> ?country2 . <http://dbpedia.org/resource/Montreal> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat2 . <http://dbpedia.org/resource/Montreal> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long2 . <http://dbpedia.org/resource/Toronto> <http://dbpedia.org/ontology/country> ?country3 . <http://dbpedia.org/resource/Toronto> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat3 . <http://dbpedia.org/resource/Toronto> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long3 . <http://dbpedia.org/resource/Lebanon,_Illinois> <http://dbpedia.org/ontology/country> ?country4 . <http://dbpedia.org/resource/Lebanon,_Illinois> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat4 . <http://dbpedia.org/resource/Lebanon,_Illinois> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long4 . <http://dbpedia.org/resource/Amman> <http://dbpedia.org/ontology/country> ?country5 . <http://dbpedia.org/resource/Amman> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat5 . <http://dbpedia.org/resource/Amman> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long5 }
+SELECT * WHERE { <http://dbpedia.org/resource/Jordan_Nagai> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Jordan_Nagai> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT DISTINCT ?r3 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region> . ?x0 ?r3 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?r5 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Tehran> ?r5 ?x0 } 
+SELECT DISTINCT ?r5 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Tehran> ?r5 ?x0 } 
+SELECT DISTINCT ?r3 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region> . ?x0 ?r3 <http://dbpedia.org/resource/Iran> } 
+SELECT DISTINCT ?player WHERE { ?player <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerPlayer> . ?player <http://dbpedia.org/property/currentclub> <http://dbpedia.org/resource/FC_Bayern_Munich> . ?player <http://dbpedia.org/property/nationalteam> <http://dbpedia.org/resource/Germany_national_football_team> }
+SELECT DISTINCT ?r0 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Iran> ?r0 ?x0 } 
+SELECT DISTINCT ?x0 ?r0 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Iran> ?r0 ?x0 } 
+SELECT DISTINCT ?x0 ?r0 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Iran> ?r0 ?x0 } 
+SELECT DISTINCT ?r0 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Iran> ?r0 ?x0 } 
+SELECT DISTINCT ?r0 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Iran> ?r0 ?x0 } 
+SELECT DISTINCT ?x1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Band> . ?x0 <http://www.w3.org/2000/01/rdf-schema#label> "Pink Floyd"@en . ?x0 <http://dbpedia.org/property/yearsActive> ?x1 } 
+SELECT DISTINCT * WHERE { <http://www.w3.org/2002/07/owl#Thing> ?property ?object } 
+SELECT * WHERE { <http://dbpedia.org/resource/Equatorial_Guinea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Equatorial_Guinea> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.georss.org/georss/point> ?coord } 
+SELECT ?capital ?lat ?long WHERE { ?location <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Location> . ?location <http://xmlns.com/foaf/0.1/name> "England"@en . ?location <http://dbpedia.org/ontology/capital> ?v . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long . ?v <http://dbpedia.org/property/name> ?capital } 
+SELECT * WHERE { <http://dbpedia.org/resource/Jordan_Nagai> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Bob_Peterson_(filmmaker)> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?subject ?object WHERE { ?subject <http://dbpedia.org/ontology/firstLaunchRocket> ?object } 
+SELECT DISTINCT ?subject WHERE { ?subject <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Populated_places_in_Kohgiluyeh_and_Boyer-Ahmad_Province> } 
+SELECT DISTINCT ?y WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VideoGame> . ?x ?p1 <http://dbpedia.org/resource/Warcraft> . ?x <http://dbpedia.org/ontology/developer> ?y } 
+SELECT DISTINCT ?x3 ?r0 ?r3 WHERE { ?x3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book> . <http://dbpedia.org/resource/Jack_Kerouac> ?r0 ?x3 . ?x3 ?r3 <http://dbpedia.org/resource/Viking_Press> } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "May 2012"@en } 
+SELECT * WHERE { ?p <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Madrid> . ?p <http://dbpedia.org/ontology/team> ?t . ?t <http://dbpedia.org/ontology/league> ?l . ?l <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/England> } 
+SELECT ?lat ?long WHERE { ?location <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Location> . ?location <http://xmlns.com/foaf/0.1/name> "Colombia"@en . ?location <http://dbpedia.org/ontology/capital> ?v . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long } 
+SELECT * WHERE { <http://dbpedia.org/resource/Patrick_Wilson_(American_actor)> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Patrick_Wilson_(American_actor)> <http://xmlns.com/foaf/0.1/name> ?name2 }
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/G%C3%A9rard_Corbiau> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/John_Cho> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Bruce_Greenwood> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Charo_L%C3%B3pez> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Ulrich_Tukur> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Ulrich_Tukur> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/John_Cho> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Chris_Pine> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/8%C2%BD> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Rachel_Hurd-Wood> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Rachel_Hurd-Wood> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Rip_Torn> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Rip_Torn> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Anthony_Rapp> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Jesse_L._Martin> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Alfre_Woodard> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Paul_Dano> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Botswana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Botswana> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/S%C5%82awomir_Idziak> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Olivia_Williams> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Olivia_Williams> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Czech_Republic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Czech_Republic> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { <http://dbpedia.org/resource/Chris_Pine> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Chris_Pine> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Vivica_A._Fox> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Sonny_Chiba> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Turks_and_Caicos_Islands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Turks_and_Caicos_Islands> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Category:UK_MPs_1987%E2%80%9392> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Zoe_Saldana> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Zoe_Saldana> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Uma_Thurman> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Uma_Thurman> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Planck"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/El_Salvador> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/El_Salvador> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { <http://dbpedia.org/resource/Alfre_Woodard> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Benedict_Cumberbatch> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Loles_Le%C3%B3n> ?p ?v } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Galileo"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Salim Al-Hassani"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Mauna Kea"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "American Astronomical Society"@en } 
+SELECT ?o1 WHERE { <http://dbpedia.org/resource/Chirakodinja_Kinavukal> <http://purl.org/dc/terms/subject> ?o . ?o <http://www.w3.org/2004/02/skos/core#broader> ?o1 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Aaliyah> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Aaliyah> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Weyl"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Bruce_Greenwood> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Bruce_Greenwood> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Yangjiang"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Jerry_O'Connell> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Jerry_O'Connell> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Hisaya_Morishige> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Yuriko_Ishida> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Lucy_Davis> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Lucy_Davis> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Dylan_Moran> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Dylan_Moran> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Hans Bethe"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Jamie_Kennedy> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Jamie_Kennedy> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/L%C3%A9on:_The_Professional> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Puerto_Rico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Puerto_Rico> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Piotr_Soboci%C5%84ski> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Martin_Crewes> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Martin_Crewes> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Kepler"@en } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Jan_%C5%A0vankmajer> ?p ?v } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Category:UK_MPs_2005%E2%80%9310> ?p ?v } 
+SELECT ?redirectsTo WHERE { ?resource <http://www.w3.org/2000/01/rdf-schema#label> "Nissan Motor"@en . ?resource <http://dbpedia.org/ontology/wikiPageRedirects> ?redirectsTo } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "SLAC National Accelerator Laboratory"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Prize in Physics"@en } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Pedro_Almod%C3%B3var> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/New_Caledonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/New_Caledonia> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { <http://dbpedia.org/resource/Bahrain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Bahrain> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/G%C3%A9rard_Depardieu> ?p ?v } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "IAEA"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Eugene Wigner"@en } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Patrice_Ch%C3%A9reau> ?p ?v } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Claudiu_Bleon%C8%9B> ?p ?v } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Ramsar"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Vivica_A._Fox> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Daryl_Hannah> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?country ?capital ?lat ?long WHERE { ?country <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> . ?country <http://xmlns.com/foaf/0.1/name> "Colombia"@en . ?country <http://dbpedia.org/ontology/capital> ?v . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long . ?v <http://dbpedia.org/property/name> ?capital } 
+SELECT * WHERE { <http://dbpedia.org/resource/Antonio_Banderas> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Antonio_Banderas> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Lasse_Hallstr%C3%B6m> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Heather_Angel_(actress)> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Heather_Angel_(actress)> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?V WHERE { ?V <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Dia_Mirza> . ?V <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Salman_Khan> } 
+SELECT * WHERE { <http://dbpedia.org/resource/Vivica_A._Fox> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Vivica_A._Fox> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/San_Marino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/San_Marino> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT ?lat ?long WHERE { <http://dbpedia.org/resource/Mogadishu> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . <http://dbpedia.org/resource/Mogadishu> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long } 
+SELECT * WHERE { <http://dbpedia.org/resource/Lindsay_Lohan> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Lindsay_Lohan> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Ben_Affleck> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Ben_Affleck> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Cruelest> ?Property ?Value } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/%C3%89ric_Serra> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Mexico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Mexico> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Hoyle"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Michael_Madsen> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Julie_Dreyfus> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Bj%C3%B6rn_Isf%C3%A4lt> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Mindy_Kaling> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/John_Ratzenberger> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?person ?type WHERE { ?person <http://dbpedia.org/ontology/wikiPageID> 31175 . ?person <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type } 
+SELECT * WHERE { <http://dbpedia.org/resource/Ben_Stiller> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Gene_Hackman> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Liev_Schreiber> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Liev_Schreiber> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "January 2010"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Hisaya_Morishige> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Mitsuko_Mori> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Djibouti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Djibouti> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Langevin"@en } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Anouk_Aim%C3%A9e> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/William_Talman_(actor)> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/William_Talman_(actor)> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Russell_Crowe> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Russell_Crowe> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Malawi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Malawi> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { <http://dbpedia.org/resource/Mali> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Mali> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { <http://dbpedia.org/resource/Dustin_Hoffman> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Dustin_Hoffman> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Lena_Olin> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Lena_Olin> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Guinea-Bissau> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Guinea-Bissau> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Bach"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Fermi Gamma-ray Space Telescope"@en } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Carme_El%C3%ADas> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Michael_Madsen> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Michael_Madsen> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Tom%C3%A1s_Guti%C3%A9rrez_Alea> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Samoa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Samoa> <http://dbpedia.org/ontology/capital> ?capital . ?capital <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace> . ?capital <http://www.georss.org/georss/point> ?coord } 
+SELECT * WHERE { <http://dbpedia.org/resource/Kyle_MacLachlan> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Kyle_MacLachlan> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Paul_Calder%C3%B3n> ?p ?v } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Stanley Watras"@en } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Luis_Bu%C3%B1uel> ?p ?v } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Beno%C3%AEt_Magimel> ?p ?v } 
+SELECT * WHERE { <http://dbpedia.org/resource/Giovanni_Ribisi> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Scarlett_Johansson> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Lorentz"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Paris> <http://dbpedia.org/ontology/area> ?area . <http://dbpedia.org/resource/Paris> <http://dbpedia.org/ontology/populationTotal> ?population . <http://dbpedia.org/resource/Paris> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . <http://dbpedia.org/resource/Paris> <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "U.S."@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Bertram Vivian Bowden"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Burgess_Meredith> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Burgess_Meredith> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Robin_Wright> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Robin_Wright> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Anton_Yelchin> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Anton_Yelchin> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Richard_Haydn> <http://dbpedia.org/ontology/birthName> ?name1 . <http://dbpedia.org/resource/Richard_Haydn> <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT * WHERE { <http://dbpedia.org/resource/Paul_Bettany> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Paul_Bettany> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Stokes"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Jason_Schwartzman> <http://dbpedia.org/ontology/birthName> ?name1 . ?x <http://dbpedia.org/ontology/birthName> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Henri_Deca%C3%AB> ?p ?v } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Bowdon"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Utrecht"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Boyertown"@en } 
+SELECT * WHERE { <http://dbpedia.org/resource/Lena_Olin> <http://xmlns.com/foaf/0.1/name> ?name1 . <http://dbpedia.org/resource/Aaliyah> <http://xmlns.com/foaf/0.1/name> ?name2 } 
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Yasujir%C5%8D_Ozu> ?p ?v } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Carl von Weizsäcker"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "General Relativity"@en } 
+SELECT ?redirectsTo WHERE { ?resource <http://www.w3.org/2000/01/rdf-schema#label> "CUNA Mutual"@en . ?resource <http://dbpedia.org/ontology/wikiPageRedirects> ?redirectsTo } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Møller"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "George Gamow"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "Minister for Education and Science"@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "D.C."@en } 
+SELECT * WHERE { ?x <http://www.w3.org/2000/01/rdf-schema#label> "U.S."@en } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Dog_Heaven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Jorge_Jesus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Daniel-Fran%C3%A7ois-Esprit_Auber> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Aphid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Google_Maps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Flavor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Siberian_tiger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Bronze_sculpture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?r10 WHERE { <http://dbpedia.org/resource/Achaemenid_Empire> ?r10 <http://dbpedia.org/ontology/Place> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Heart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Good_Records> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?r13 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Sassanid_Empire> ?r13 ?x0 } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Twenga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Japanese_people> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Beta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Microphone_Records> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Metacarpal_bones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Movistar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Hatred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Bill_Paxton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Love_Lab> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?x1 WHERE { <http://dbpedia.org/resource/Iran> <http://dbpedia.org/ontology/capital> ?x1 } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Oxford_English_Dictionary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Catherine_Br%C3%A9chignac> ?o ?p } 
+SELECT DISTINCT ?Concept WHERE { ?Concept <http://www.w3.org/2002/07/owl#sameAs> <http://sws.geonames.org/3013205/> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Kris_Kristofferson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Draco_Malfoy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Pamplona> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Experiment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Stroke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Experimental_psychology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Anniversary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Jean_Ladri%C3%A8re> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Henderson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Human_evolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Ohio_University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Randomness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Yacouba_Konat%C3%A9> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Strange_Magic_(film)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Big_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Puzzle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Macquarie_University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Andreas_Alf%C3%B6ldi> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Teleco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Ernest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Sunbittern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Phil_Harvey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Palindrome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Anthony_Moore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Blooded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/1873> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Earth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Serj_Tankian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Apple_Inc.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Black_Sea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/MC5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Door> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Perfect_Fit_(Van_Morrison_song)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Courage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Francis_Ambri%C3%A8re> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Haile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Research_institute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Boikot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Syd_Barrett> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Virtual_assistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Love> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Illustrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Natural_history> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Energy_development> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/F%C3%A9lix_Benoist> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Real-time_strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Quarantine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Ron_White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/%C3%89mile_Masqueray> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Diego> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Sepultura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?r13 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place> . <http://dbpedia.org/resource/Sassanid_Empire> ?r13 ?x0 } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Red_junglefowl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Manhattan_Project> . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist> . ?uri <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Nobel_Peace_Prize> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Vancouver_Island> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Shock_absorber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Warsaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/George_Harrison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Eug%C3%A8ne_Atget> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Type_O_Negative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Slade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Chicken_curry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?Dir WHERE { ?Dir <http://www.w3.org/2000/01/rdf-schema#label> "Arizona"@en . ?Dir <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Sheffield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Pete_Haycock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Abraham> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Umbrella> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Myrmecocystus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Scotland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Socialism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?r2 WHERE { <http://dbpedia.org/resource/Iran> ?r2 <http://dbpedia.org/ontology/Place> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Mother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Circus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Suicide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Monster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Bob_Dylan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Universe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Contrive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Lamar_University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/New_Site,_Alabama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Jennifer_Aniston> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Foobar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/%C3%89ric_Geoffroy> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Java> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Fran%C3%A7ois_Regnault> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Recording_studio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Handy_Manny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/National_Park_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Jean-Fran%C3%A7ois_Matt%C3%A9i> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Sony> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?x1 WHERE { ?x0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> . ?x0 <http://dbpedia.org/property/name> "Easy Money"@en . ?x0 <http://dbpedia.org/ontology/releaseDate> ?x1 } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Zoraptera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Electrical_engineering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?s WHERE { ?s <http://www.w3.org/2000/01/rdf-schema#label> "C"@en } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Big_Bone_Cave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Barbican_Centre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Barth%C3%A9lemy_Prosper_Enfantin> ?o ?p } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Boric_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Pubic_symphysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?owl . ?owl <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> } 
+SELECT DISTINCT ?s WHERE { ?s <http://www.w3.org/2000/01/rdf-schema#label> "B"@en } 

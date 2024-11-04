@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/F%C3%A9lix_Benoist> ?o ?p } 

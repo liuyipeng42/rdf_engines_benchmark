@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Paul_Walker> <http://www.w3.org/2000/01/rdf-schema#label> ?label . ?starring <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Paul_Walker> . ?starring <http://dbpedia.org/ontology/abstract> ?abstract } 

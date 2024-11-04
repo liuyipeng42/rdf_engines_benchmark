@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Category:Leaders_of_the_Opposition_(United_Kingdom)> ?p ?v } 

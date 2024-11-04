@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://dbpedia.org/resource/Man_vs._Man> ?Property ?Value } 

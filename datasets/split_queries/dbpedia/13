@@ -1,0 +1,1 @@
+SELECT ?pers ?fio ?born ?prof WHERE { ?pers <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person> . ?pers <http://dbpedia.org/property/birthName> ?fio . ?pers <http://dbpedia.org/property/birthDate> ?born . ?pers <http://dbpedia.org/property/birthPlace> ?prof } 

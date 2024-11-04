@@ -1,0 +1,1 @@
+SELECT DISTINCT ?university ?property ?object WHERE { ?university <http://www.w3.org/2000/01/rdf-schema#label> "University of California, Berkeley"@en . ?university ?property ?object } 

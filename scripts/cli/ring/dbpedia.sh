@@ -1,0 +1,1 @@
+./rdf_systems/ring-basic-p/build/query-index ./rdf_systems/ring-basic-p/index/dbpedia_2015-10_en_wo-comments_c-distinct.nt.ring ./datasets/queries/dbpedia_queries.txt 5000000 | tail -n 554 > ./results/cli/dbpedia/ring/results.txt

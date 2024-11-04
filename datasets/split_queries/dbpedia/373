@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Bj%C3%B6rn_Isf%C3%A4lt> ?p ?v } 

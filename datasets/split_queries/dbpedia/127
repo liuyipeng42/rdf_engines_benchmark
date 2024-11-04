@@ -1,0 +1,1 @@
+SELECT ?n WHERE { ?n <http://dbpedia.org/property/name> ?name . ?n <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Braunschweig> }

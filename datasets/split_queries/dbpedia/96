@@ -1,0 +1,1 @@
+SELECT ?a ?b WHERE { ?a <http://dbpedia.org/ontology/branchFrom> ?b } 

@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Eug%C3%A8ne_Atget> ?o ?p } 

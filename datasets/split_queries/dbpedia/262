@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { <http://dbpedia.org/resource/Antoine_Arnauld_(1612-1694)> ?o ?p } 

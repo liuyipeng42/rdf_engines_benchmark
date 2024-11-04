@@ -1,0 +1,1 @@
+SELECT DISTINCT ?ot ?st WHERE { ?s <http://dbpedia.org/property/sourceRegion> ?o . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?ot . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?st } 

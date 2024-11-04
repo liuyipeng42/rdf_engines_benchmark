@@ -1,0 +1,1 @@
+SELECT * WHERE { ?ce <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> . ?ce <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/English_language> . ?m <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film> . ?m <http://dbpedia.org/property/country> ?ce }

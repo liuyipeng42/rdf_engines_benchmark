@@ -1,0 +1,1 @@
+SELECT ?p ?o WHERE { <http://dbpedia.org/resource/The_Shawshank_Redemption> ?p ?o }

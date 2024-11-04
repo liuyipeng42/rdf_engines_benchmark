@@ -1,0 +1,1 @@
+SELECT ?lat ?long WHERE { ?location <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Location> . ?location <http://xmlns.com/foaf/0.1/name> "Colombia"@en . ?location <http://dbpedia.org/ontology/capital> ?v . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat . ?v <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long } 

@@ -1,0 +1,1 @@
+SELECT ?o1 WHERE { <http://dbpedia.org/resource/Chirakodinja_Kinavukal> <http://purl.org/dc/terms/subject> ?o . ?o <http://www.w3.org/2004/02/skos/core#broader> ?o1 } 

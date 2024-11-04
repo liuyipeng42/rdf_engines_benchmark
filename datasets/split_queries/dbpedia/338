@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/L%C3%A9on:_The_Professional> ?p ?v } 

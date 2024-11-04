@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Loles_Le%C3%B3n> ?p ?v } 

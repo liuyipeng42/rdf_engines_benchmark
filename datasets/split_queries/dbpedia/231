@@ -1,0 +1,1 @@
+SELECT ?player WHERE { ?player <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerPlayer> . ?player <http://dbpedia.org/property/currentclub> <http://dbpedia.org/resource/A.S._Roma> . ?player <http://dbpedia.org/property/position> <http://dbpedia.org/resource/Forward_(association_football)> }

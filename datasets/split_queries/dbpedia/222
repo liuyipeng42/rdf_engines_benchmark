@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://dbpedia.org/resource/Guest_(surname)> ?Property ?Value } 

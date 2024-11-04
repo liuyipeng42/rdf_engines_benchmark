@@ -1,0 +1,1 @@
+SELECT ?p ?v WHERE { <http://dbpedia.org/resource/Category:UK_MPs_2005%E2%80%9310> ?p ?v } 

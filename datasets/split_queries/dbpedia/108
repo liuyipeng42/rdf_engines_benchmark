@@ -1,0 +1,1 @@
+SELECT DISTINCT ?p ?name ?pic WHERE { ?p <http://dbpedia.org/property/name> ?name . ?p <http://dbpedia.org/property/shortDescription> "Greek politician"@en . ?p <http://xmlns.com/foaf/0.1/depiction> ?pic } 

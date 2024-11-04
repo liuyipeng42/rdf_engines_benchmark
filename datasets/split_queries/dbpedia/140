@@ -1,0 +1,1 @@
+SELECT DISTINCT ?CentraEurope ?Country WHERE { <http://dbpedia.org/resource/Belgium> <http://dbpedia.org/ontology/timeZone> ?CentraEurope . ?CentralEurope <http://dbpedia.org/property/timeZone> ?Country } 

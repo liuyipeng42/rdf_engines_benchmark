@@ -1,0 +1,1 @@
+SELECT ?redirectsTo WHERE { ?resource <http://www.w3.org/2000/01/rdf-schema#label> "CUNA Mutual"@en . ?resource <http://dbpedia.org/ontology/wikiPageRedirects> ?redirectsTo } 

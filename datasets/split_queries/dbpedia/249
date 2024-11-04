@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://dbpedia.org/resource/Round_and_round> ?Property ?Value } 
