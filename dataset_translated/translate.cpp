@@ -7,21 +7,29 @@
 #include <vector>
 #include "sys/types.h"
 
+std::string trim(std::string s) {
+    s.erase(0, s.find_first_not_of(" \t\n\r"));
+    s.erase(s.find_last_not_of(" \t\n\r") + 1);
+    return s;
+}
+
 void encode_rdf(std::unordered_map<std::string, uint>& nodes,
                 std::unordered_map<std::string, uint>& predicates) {
     std::string s, p, o;
-    std::ifstream fin("/home/lyp/DATA/datasets/dbpedia/dbpedia_2015-10_en/dbpedia_2015-10_en_wo-comments_c-distinct.nt", std::ios::in);
+
+    std::ifstream fin("./original/wikidata-wcg-filtered.nt", std::ios::in);
 
     std::vector<uint*> triples;
 
     uint triplet_cnt = 0;
+
+    std::vector<std::string> predicates_list;
 
     while (fin >> s >> p) {
         fin.ignore();
         std::getline(fin, o);
         for (o.pop_back(); o.back() == ' ' || o.back() == '.'; o.pop_back()) {
         }
-
         uint* triple = new uint[3];
         auto ret = nodes.insert({s, nodes.size() + 1});
         triple[0] = ret.first->second;
@@ -40,7 +48,7 @@ void encode_rdf(std::unordered_map<std::string, uint>& nodes,
 
     fin.close();
 
-    std::ofstream fout("./translate.nt", std::ofstream::out | std::ofstream::binary);
+    std::ofstream fout("./translated.nt", std::ofstream::out | std::ofstream::binary);
 
     for (uint i = 0; i < triples.size(); i++) {
         std::string triple = std::to_string(triples[i][0]) + ' ' +
@@ -64,40 +72,47 @@ void split(const std::string& str, std::vector<std::string>& words) {
         words.push_back(word);
 }
 
-std::string trim(std::string s) {
-    s.erase(0, s.find_first_not_of(" \t\n\r"));
-    s.erase(s.find_last_not_of(" \t\n\r") + 1);
-    return s;
-}
-
 void encode_sparql(std::unordered_map<std::string, uint>& nodes,
                    std::unordered_map<std::string, uint>& predicates) {
-    std::filesystem::path query_path = "/home/lyp/DATA/datasets/dbpedia/dbpedia_2015-10_en/queries";
+    std::filesystem::path query_path = "./original/wgpb";  // 替换为你的目标文件夹路径
 
     for (const auto& entry : std::filesystem::directory_iterator(query_path)) {
         if (entry.is_regular_file() && entry.path().extension() == ".txt") {
             std::ifstream fin(query_path.string() + '/' + entry.path().filename().string(), std::ios::in);
             std::ofstream fout(query_path.string() + "_t/" + entry.path().filename().string(),
                                std::ofstream::out | std::ofstream::binary);
+            std::cout << query_path.string() + "_t/" + entry.path().filename().string() << std::endl;
             std::string query;
             while (getline(fin, query)) {
                 uint start = query.find('{') + 1;
                 uint end = query.find('}');
-                std::string processed = query.substr(0, query.find('{') + 1) + ' ';
+                std::string processed = "";
 
                 std::vector<std::string> parts;
                 split(query.substr(start, end - start), parts);
 
                 for (uint i = 0; i < parts.size(); i++) {
                     if (i % 4 == 1) {
-                        if (parts[i][0] != '?')
-                            processed += std::to_string(predicates[trim(parts[i])] + nodes.size()) + ' ';
+                        if (parts[i][0] != '?') {
+                            auto it = predicates.find(trim(parts[i]));
+                            uint id = 0;
+                            if (it != predicates.end())
+                                id = it->second;
+                            processed += std::to_string(id + nodes.size()) + ' ';
+                        }
+
                         else
                             processed += parts[i] + ' ';
                     } else {
                         if (parts[i] != ".") {
-                            if (parts[i][0] != '?')
-                                processed += std::to_string(nodes[trim(parts[i])]) + ' ';
+                            if (parts[i][0] != '?') {
+                                auto it = nodes.find(trim(parts[i]));
+                                uint id = 0;
+                                if (it != nodes.end())
+                                    id = it->second;
+                                processed += std::to_string(id) + ' ';
+                            }
+
                             else
                                 processed += parts[i] + ' ';
                         } else {
@@ -105,8 +120,8 @@ void encode_sparql(std::unordered_map<std::string, uint>& nodes,
                         }
                     }
                 }
-
-                processed += query.substr(end) + '\n';
+                processed.resize(processed.length() - 2);
+                processed += '\n';
                 fout.write(processed.c_str(), processed.size());
             }
 
