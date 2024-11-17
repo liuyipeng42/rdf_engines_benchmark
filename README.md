@@ -6,7 +6,7 @@ This repository contains benchmarks for various RDF engines using both command-l
 To get started, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/rdf_engines_benchmark.git
+git clone https://github.com/liuyipeng42/rdf_engines_benchmark.git
 cd rdf_engines_benchmark
 git submodule update --init
 ```
