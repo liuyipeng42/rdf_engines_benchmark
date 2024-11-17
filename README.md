@@ -1,13 +1,13 @@
-# RDF Systems Benchmark
-This repository contains benchmarks for various RDF systems using both command-line interfaces and SPARQL endpoints. The systems benchmarked include RDF-3X, Ring, Tentris, and Jena-LTJ.
+# RDF Engines Benchmark
+This repository contains benchmarks for various RDF engines using both command-line interfaces and SPARQL endpoints. The engines benchmarked include RDF-3X, Ring, Tentris, and Jena-LTJ.
 
 ## Installation
 
 To get started, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/yourusername/rdf_systems_benchmark.git
-cd rdf_systems_benchmark
+git clone https://github.com/yourusername/rdf_engines_benchmark.git
+cd rdf_engines_benchmark
 git submodule update --init
 ```
 
@@ -20,7 +20,7 @@ Datasets are available [here](https://mega.nz/folder/5ulXkYZT#j54ThyZBnX34_VANel
 To run the benchmarks, use the following commands:
 
 ```bash
-python ./scripts/endpoint.py <dataset_path> <rdf_system>
+python ./scripts/endpoint.py <dataset_path> <rdf_engine>
 ./scripts/cli/rdf-tdaa/watdiv.sh
 ./scripts/cli/rdf-tdaa/wgpb.sh
 ./scripts/cli/rdf-tdaa/dbpedia.sh

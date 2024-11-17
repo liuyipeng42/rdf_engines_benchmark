@@ -1,6 +1,6 @@
 for i in $(seq 1 554); do
     start_time=$(date +%s%N)
-    ./rdf_systems/rdf-3x/bin/rdf3xquery ./rdf_systems/rdf-3x/bin/dbpedia ./datasets/split_queries/dbpedia/$i > /dev/null 2>&1
+    ./rdf_engines/rdf-3x/bin/rdf3xquery ./rdf_engines/rdf-3x/bin/dbpedia ./datasets/split_queries/dbpedia/$i > /dev/null 2>&1
     end_time=$(date +%s%N)
     duration=$(echo "scale=3; ($end_time - $start_time) / 1000000" | bc)
 

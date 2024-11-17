@@ -1,1 +1,10 @@
 
+[submodule "rdf_engines/rdf-3x"]
+	path = rdf_engines/rdf-3x
+	url = https://github.com/dice-group/rdf-3x.git
+[submodule "rdf_engines/ring-basic-p"]
+	path = rdf_engines/ring-basic-p
+	url = https://github.com/adriangbrandon/ring-basic-p.git
+[submodule "rdf_engines/rdf-tdaa"]
+	path = rdf_engines/rdf-tdaa
+	url = https://github.com/MKMaS-GUET/RDF-TDAA.git

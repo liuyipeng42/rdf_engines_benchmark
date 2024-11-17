@@ -93,11 +93,11 @@ queries = {
 }
 
 dataset = sys.argv[1]
-rdf_system = sys.argv[2]
+rdf_engine = sys.argv[2]
 
-url = endpoints[rdf_system]
+url = endpoints[rdf_engine]
 query_file = queries[dataset]
-output_dir = "./results/endpoint/" + dataset + "/" + rdf_system + "/"
+output_dir = "./results/endpoint/" + dataset + "/" + rdf_engine + "/"
 
 if dataset == "watdiv":
     for t in watdiv_quries:

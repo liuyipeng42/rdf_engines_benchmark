@@ -1,0 +1,5 @@
+build index:
+apache-jena-3.9.0/bin/tdbloader2 --loc=db/wgpb ./wikidata-filtered.nt
+
+run query:
+java -Xmx20g -jar fuseki-leapfrog.jar --loc=db/watdiv --timeout=300000 jena
