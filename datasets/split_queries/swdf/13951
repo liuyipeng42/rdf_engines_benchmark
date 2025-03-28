@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/deutsche-telekom-labs-berlin-university-of-technol> ?property ?value }

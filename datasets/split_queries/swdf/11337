@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/nrc-institute-of-information-technology> ?property ?value }

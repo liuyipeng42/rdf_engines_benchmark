@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/huazhong-university-of-science-and-technology> ?property ?value }

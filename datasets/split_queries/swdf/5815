@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/person/riste-gligorov> ?property ?value }

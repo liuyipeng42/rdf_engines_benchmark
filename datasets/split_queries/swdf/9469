@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/phd/towards-liquid-service-oriented-architectures/authors> ?property ?value }

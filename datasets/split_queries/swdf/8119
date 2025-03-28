@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.eswc2006.org/topics/#topic2.7> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/a-unified-framework-for-recommending-diverse-and-r/authors> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/ufscar-federal-university-of-sao-carlos> ?property ?value }

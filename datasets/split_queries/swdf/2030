@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/fis/2010/keynote/the-innovation-triathlon%3A-the-first-the-fastest-> ?property ?value }

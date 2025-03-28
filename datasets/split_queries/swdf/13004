@@ -1,0 +1,1 @@
+SELECT * WHERE { ?1Var1 <http://data.semanticweb.org/ns/swc/ontology#hasRelatedEvent> ?OBJECT } LIMIT 5

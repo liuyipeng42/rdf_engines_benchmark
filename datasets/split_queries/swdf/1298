@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/person/hawley-k-rising-iii> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/universitaet-frankfurt-am-main> ?property ?value }

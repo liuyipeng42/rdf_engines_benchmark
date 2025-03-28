@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.ordnancesurvey.co.uk/research> ?property ?value }

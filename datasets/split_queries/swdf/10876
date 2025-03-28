@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/school-of-computing-and-technology-university-of-west-london> ?property ?value }

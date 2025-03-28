@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/inserm-umrs-872-eq-20-15-rue-de-l-ecole-de-medecine-75006-paris-france> ?property ?value }

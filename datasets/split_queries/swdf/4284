@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/ca-foscari-university-of-venice> ?property ?value }

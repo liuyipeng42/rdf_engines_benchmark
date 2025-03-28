@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/the-design-and-usage-of-tentative-events-for-time-/authors> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { ?1Var1 <http://xmlns.com/foaf/0.1/logo> ?OBJECT } LIMIT 5

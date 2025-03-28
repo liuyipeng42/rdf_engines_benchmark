@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/workshop/ssws/2008/paper/main/8> ?property ?value }

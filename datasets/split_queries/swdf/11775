@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/national-institute-of-standards-and-technology> ?property ?value }

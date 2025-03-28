@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/polish-japanese-institute-of-information-technology-pjiit> ?property ?value }

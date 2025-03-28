@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/a-game-theoretic-formulation-of-the-service-provis> ?property ?value }

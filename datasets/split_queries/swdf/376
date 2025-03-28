@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/department-of-computational-linguistics-heidelberg> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/the-telecommunications-research-center-vienna> ?property ?value }

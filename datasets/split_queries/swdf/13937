@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/fis/2010/tutorial/building-semantic-mashups-with-jigs4owl> ?property ?value }

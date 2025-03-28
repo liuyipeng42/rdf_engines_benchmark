@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://kmi.open.ac.uk/people/index.cfm/idstring/alessio-gugliotta> ?property ?value }

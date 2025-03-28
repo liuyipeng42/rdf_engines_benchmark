@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/phd/measurement-and-analysis-of-cyberlocker-services/authors> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.eswc2007.org/pdf/eswc07-sintek.pdf> ?property ?value }

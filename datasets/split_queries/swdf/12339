@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/instituto-de-fisica-interdisciplinar-y-sistemas-complejos-ifisc-csic-uib-palma-de-mallorca> ?property ?value }

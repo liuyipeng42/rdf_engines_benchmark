@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://twitter.com/inathens> ?property ?value }

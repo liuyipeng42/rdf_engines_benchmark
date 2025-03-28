@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/national-computer-network-emergency-response-technical-team-coordination-center-of-china> ?property ?value }

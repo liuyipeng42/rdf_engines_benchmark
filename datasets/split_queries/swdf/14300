@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/czech-technical-university-faculty-of-electrical-engineering-department-of-computer-science-and-engineering> ?property ?value }

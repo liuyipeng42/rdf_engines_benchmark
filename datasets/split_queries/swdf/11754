@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/semantic-computing-research-group-seco-aalto-university-school-of-science-and-technology-tkk> ?property ?value }

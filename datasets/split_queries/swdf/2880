@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/massachusetts-general-hospital-department-of-neurology> ?property ?value }

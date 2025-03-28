@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/college-of-computer-science-zhejiang-university> ?property ?value }

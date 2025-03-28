@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/department-of-foreign-trade-university-of-joinvill> ?property ?value }

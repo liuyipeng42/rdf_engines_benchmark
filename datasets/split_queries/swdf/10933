@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/measuring-a-commercial-content-delivery-network/authors> ?property ?value }

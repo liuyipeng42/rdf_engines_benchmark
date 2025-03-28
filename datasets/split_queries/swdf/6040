@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/alcatel-lucent-bell-labs-belgium> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT DISTINCT ?p WHERE { <http://data.semanticweb.org/person/andrei-tamilin> ?p ?x }

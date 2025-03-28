@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/vu-university-amsterdam-collibra-nv> ?property ?value }

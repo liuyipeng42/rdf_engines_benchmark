@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://knoesis.org/~amit> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/dipartimento-di-elettronica-e-informazione-politecnico-di-milano> ?property ?value }

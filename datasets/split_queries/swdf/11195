@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/lif-universite-aix-marseille-ii> ?property ?value }

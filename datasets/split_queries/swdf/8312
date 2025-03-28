@@ -1,0 +1,1 @@
+SELECT DISTINCT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> . ?s <http://www.w3.org/2002/07/owl#sameAs> ?sa }

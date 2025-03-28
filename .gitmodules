@@ -8,3 +8,9 @@
 [submodule "rdf_engines/rdf-tdaa"]
 	path = rdf_engines/rdf-tdaa
 	url = https://github.com/MKMaS-GUET/RDF-TDAA.git
+[submodule "rdf_engines/gStore"]
+	path = rdf_engines/gStore
+	url = https://github.com/pkumod/gStore.git
+[submodule "rdf_engines/MillenniumDB"]
+	path = rdf_engines/MillenniumDB
+	url = https://github.com/MillenniumDB/MillenniumDB.git

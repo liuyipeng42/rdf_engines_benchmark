@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://apex.sjtu.edu.cn/apex_wiki/FrontPage> ?property ?value }

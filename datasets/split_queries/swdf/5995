@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/web-science-program-mathematics-department-aristotle-university-of-thessaloniki-greece> ?property ?value }

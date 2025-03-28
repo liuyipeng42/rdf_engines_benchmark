@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/rr/2008/invitedTalks/semantics-and-reasoning-algorithms-for-a-faithful-> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/gesis-leibniz-institute-for-the-social-sciences/location> ?property ?value }

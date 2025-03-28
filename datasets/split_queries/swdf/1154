@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/u-of-crete-and-forth-ics> ?property ?value }

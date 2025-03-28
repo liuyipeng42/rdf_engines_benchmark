@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/national-electronics-and-computer-technology-cente> ?property ?value }

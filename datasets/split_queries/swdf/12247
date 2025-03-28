@@ -1,0 +1,1 @@
+SELECT ?o ?p WHERE { <http://data.semanticweb.org/organization/united-states-army-research-laboratory> ?p ?o }

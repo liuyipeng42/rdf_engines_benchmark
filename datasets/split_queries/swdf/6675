@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/music-technology-group-universitat-pompeu-fabra> ?property ?value }

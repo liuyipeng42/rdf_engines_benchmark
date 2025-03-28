@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/vnu-university-of-engineering-and-technology> ?property ?value }

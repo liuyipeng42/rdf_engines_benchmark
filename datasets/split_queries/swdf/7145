@@ -1,0 +1,1 @@
+SELECT ?o ?p WHERE { <http://data.semanticweb.org/organization/faculty-of-informatics-masaryk-university> ?p ?o }

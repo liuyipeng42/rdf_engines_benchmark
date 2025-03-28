@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/person/eduarda-mendes-rodrigues> ?property ?value }

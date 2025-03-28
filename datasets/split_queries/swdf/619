@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://data.semanticweb.org/ns/swc/ontology> ?PREDICATE ?OBJECT } LIMIT 5

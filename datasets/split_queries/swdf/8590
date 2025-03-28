@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/computer-enigeering-dept-kyungpook-national-university-korea> ?property ?value }

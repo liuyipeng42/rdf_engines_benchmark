@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/aston-business-school-aston-university-birmingham-uk> ?property ?value }

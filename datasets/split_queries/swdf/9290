@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/cssar-chinese-academy-of-sciences> ?property ?value }

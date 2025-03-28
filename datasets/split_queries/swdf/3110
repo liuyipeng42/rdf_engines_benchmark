@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/phd/the-oxpath-to-success-in-the-deep-web> ?property ?value }

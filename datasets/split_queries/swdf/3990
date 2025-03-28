@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/poster/ontowiki-mobile-knowledge-management-in-your-pocke/authors> ?property ?value }

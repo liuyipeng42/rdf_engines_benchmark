@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/santec-crp-henri-tudor-and-lri-university-of-paris-xi> ?property ?value }

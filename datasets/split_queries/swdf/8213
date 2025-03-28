@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/eswc/2008/track/session/formal-languages-2> ?property ?value }

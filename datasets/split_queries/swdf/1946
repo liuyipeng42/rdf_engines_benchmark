@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/johannes-kepler-university-linz-austria> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.kde.cs.uni-kassel.de/hotho> ?property ?value }

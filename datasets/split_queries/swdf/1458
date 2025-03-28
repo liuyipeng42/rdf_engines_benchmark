@@ -1,0 +1,1 @@
+SELECT ?o WHERE { <http://data.semanticweb.org/organization/german-research-center-for-artificial-intelligence-dfki> <http://xmlns.com/foaf/0.1/name> ?o }

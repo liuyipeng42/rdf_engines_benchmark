@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/fon-school-of-business-administration-university-of-belgrade> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/demo/livepulse-tapping-social-media-for-sentiments-in-r/authors> ?property ?value }

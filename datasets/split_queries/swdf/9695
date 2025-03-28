@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/lip6-universite-pierre-et-marie-curie> ?property ?value }

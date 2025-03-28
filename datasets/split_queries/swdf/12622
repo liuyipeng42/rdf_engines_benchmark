@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/iut-lumiere-university-of-lyon-ii-bron-france> ?property ?value }

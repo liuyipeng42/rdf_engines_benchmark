@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/parallel-boosted-regression-trees-for-web-search-r/authors> ?property ?value }

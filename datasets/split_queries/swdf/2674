@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/department-of-computer-science-and-engineering-chalmers-university-of-technology-goeteborg-university> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/poster/recommendations-for-the-long-tail-by-term-query-gr> ?property ?value }

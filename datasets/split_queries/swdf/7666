@@ -1,0 +1,1 @@
+SELECT * WHERE { ?1Var1 <http://purl.org/dc/terms/created> ?OBJECT } LIMIT 5

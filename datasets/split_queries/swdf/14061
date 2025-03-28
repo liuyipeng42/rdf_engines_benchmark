@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/sourcerank-relevance-and-trust-assessment-for-deep> ?property ?value }

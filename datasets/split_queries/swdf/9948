@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.schaffert.eu> ?property ?value }

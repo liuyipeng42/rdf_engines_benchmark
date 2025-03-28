@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/demo/ontotrix-a-hybrid-visualization-for-populated-onto/authors> ?property ?value }

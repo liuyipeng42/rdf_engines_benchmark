@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/poster/leveraging-auxiliary-text-terms-for-automatic-imag/authors> ?property ?value }

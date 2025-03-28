@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.openlinksw.com/virtrdf-data-formats#sinv-iid-SuperFormats> ?property ?value }

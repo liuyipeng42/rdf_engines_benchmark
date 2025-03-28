@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/geovista-center-department-of-geography-pennsylvania-state-university-usa> ?property ?value }

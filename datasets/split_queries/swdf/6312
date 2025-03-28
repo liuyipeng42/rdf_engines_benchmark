@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.sts.tu-harburg.de/~at.kaya/> ?property ?value }

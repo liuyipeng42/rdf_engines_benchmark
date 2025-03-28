@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/joseph-m-katz-graduate-school-of-business-university-of-pittsburgh> ?property ?value }

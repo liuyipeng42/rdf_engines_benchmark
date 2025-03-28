@@ -1,0 +1,1 @@
+SELECT DISTINCT ?X ?rdfs_label WHERE { ?X <http://data.semanticweb.org/ns/swc/ontology#heldBy> <http://data.semanticweb.org/person/abraham-bernstein> . ?X <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#Delegate> . ?X <http://www.w3.org/2000/01/rdf-schema#label> ?rdfs_label } LIMIT 50

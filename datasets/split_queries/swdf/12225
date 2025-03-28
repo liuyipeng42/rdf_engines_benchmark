@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/tst-centrale-institute-for-dutch-lexicology-inl-le> ?property ?value }

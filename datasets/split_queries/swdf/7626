@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://centria.di.fct.unl.pt/~jja> ?property ?value }

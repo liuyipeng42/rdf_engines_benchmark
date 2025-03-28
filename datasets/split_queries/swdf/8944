@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/buy-it-now-or-take-a-chance-a-simple-sequential-sc/authors> ?property ?value }

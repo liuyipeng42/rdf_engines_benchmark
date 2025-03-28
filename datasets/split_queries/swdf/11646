@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/rr/2010/tutorials/sparql-1-1-new-features-and-friends-owl2-rif> ?property ?value }

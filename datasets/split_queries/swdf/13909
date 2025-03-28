@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/center-for-complex-network-research-northeastern-university> ?property ?value }

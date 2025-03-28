@@ -1,0 +1,1 @@
+SELECT DISTINCT ?p ?o WHERE { <http://data.semanticweb.org/workshop/ldow/2012/programme-committee-member> ?p ?o }

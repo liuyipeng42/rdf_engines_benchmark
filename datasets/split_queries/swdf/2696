@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/ims-university-of-stuttgart> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/fis/2010/tutorial/federation-of-future-internet-research-experimenta> ?property ?value }

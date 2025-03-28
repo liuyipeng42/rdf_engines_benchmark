@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/the-genomics-institute-of-the-novartis-research-foundation> ?property ?value }

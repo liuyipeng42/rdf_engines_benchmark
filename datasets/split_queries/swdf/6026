@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/university-of-craiova-software-engineering-department-romania> ?property ?value }

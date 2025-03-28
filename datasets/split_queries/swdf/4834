@@ -1,0 +1,1 @@
+SELECT DISTINCT ?rClass WHERE { ?a <http://data.semanticweb.org/ns/swc/ontology#hasPart> ?instance . ?instance <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?rClass }

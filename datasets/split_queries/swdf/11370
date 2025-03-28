@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/state-key-laboratory-of-intelligent-technology-and-systems-tsinghua-national-laboratory-for-information-science-and-technology-department-of-computer-science-and-technology-tsinghua-university> ?property ?value }

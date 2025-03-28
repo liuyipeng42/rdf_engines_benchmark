@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/dept-of-information-and-communication-technologies-pompeu-fabra-university> ?property ?value }

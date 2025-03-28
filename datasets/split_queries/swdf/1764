@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://sdow2008.semanticweb.org/resources/images/sdow.png> ?property ?value }

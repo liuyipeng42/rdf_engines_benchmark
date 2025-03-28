@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/university-of-ghent-multimedia-lab> ?property ?value }

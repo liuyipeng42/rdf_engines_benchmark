@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/informatics-and-telematics-institute-iti-greece> ?property ?value }

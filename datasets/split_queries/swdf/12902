@@ -1,0 +1,1 @@
+SELECT DISTINCT ?d WHERE { ?a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://swrc.ontoware.org/ontology#InProceedings> . ?c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?d . } LIMIT 1000000

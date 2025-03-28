@@ -1,0 +1,1 @@
+./rdf_engines/ring-basic-p/build/query-index ./rdf_engines/ring-basic-p/index/swdf.translated.nt.ring ./dataset_translated/queries/swdf_queries.txt 1000000 | tail -n 14740 > ./results/cli/swdf/ring/results.txt

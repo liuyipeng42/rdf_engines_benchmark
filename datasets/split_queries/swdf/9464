@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/mark-my-words%21-linguistic-style-accommodation-in/authors> ?property ?value }

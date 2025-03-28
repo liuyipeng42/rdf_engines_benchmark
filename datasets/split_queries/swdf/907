@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/national-network-new-media-engineering-research-center-institute-of-acoustics-chinese-academy-of-sciences> ?property ?value }

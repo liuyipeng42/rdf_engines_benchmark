@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/person/renata-silva-souza-guizzardi> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/visualization-and-interactive-systems-group-vis-university-of-stuttgart> ?property ?value }

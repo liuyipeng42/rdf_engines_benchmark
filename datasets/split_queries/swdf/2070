@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/arrow-generating-signatures-to-detect-drive-by-dow/authors> ?property ?value }

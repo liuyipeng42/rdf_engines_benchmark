@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/state-key-laboratory-for-novel-software-technology-nanjing-university-china> ?property ?value }

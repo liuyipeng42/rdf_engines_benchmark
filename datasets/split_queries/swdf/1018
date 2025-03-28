@@ -1,0 +1,1 @@
+SELECT ?o ?p WHERE { <http://data.semanticweb.org/organization/university-of-california-irvine> ?p ?o }

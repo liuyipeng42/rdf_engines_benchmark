@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www-sop.inria.fr/acacia/personnel/Fabien.Gandon/> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/digital-ecosystems-and-business-intelligence-institute-curtin-university-of-technology-perth-australia> ?property ?value }

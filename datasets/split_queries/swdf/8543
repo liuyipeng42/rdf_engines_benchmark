@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://dbpedia.org/resource/Digital_humanities> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.ifi.unizh.ch/ddis> ?property ?value }

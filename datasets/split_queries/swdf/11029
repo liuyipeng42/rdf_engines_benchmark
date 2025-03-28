@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/precision-and-intelligence-laboratory-tokyo-institute-of-technology> ?property ?value }

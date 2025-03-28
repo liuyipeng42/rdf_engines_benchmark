@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/rewriting-queries-on-sparql-views/authors> ?property ?value }

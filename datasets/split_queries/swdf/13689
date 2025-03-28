@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/research-development-thomson-legal-regulatory> ?property ?value }

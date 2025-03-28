@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { ?role <http://data.semanticweb.org/ns/swc/ontology#isRoleAt> <http://data.semanticweb.org/conference/eswc/2010> } LIMIT 200

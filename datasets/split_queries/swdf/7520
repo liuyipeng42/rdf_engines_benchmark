@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/ife-ecole-normale-superieure-de-lyon> ?property ?value }

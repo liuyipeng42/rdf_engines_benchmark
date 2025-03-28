@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/poster/the-freshman-handbook-a-hint-for-the-server-placem> ?property ?value }

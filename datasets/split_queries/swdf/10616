@@ -1,0 +1,1 @@
+SELECT DISTINCT * WHERE { ?1Var1 <http://swrc.ontoware.org/ontology#title> ?OBJECT } LIMIT 5

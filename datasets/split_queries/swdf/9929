@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/intracom-s-a-telecom-solutions> ?property ?value }

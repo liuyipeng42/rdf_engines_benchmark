@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/person/mohamed-lamine-mouhoub> ?property ?value }

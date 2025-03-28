@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/demo/oxpath-little-language-little-memory-great-value/authors> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT DISTINCT ?a ?b WHERE { ?a <http://data.semanticweb.org/ns/swc/ontology#hasRelatedArtefact> ?b } LIMIT 10

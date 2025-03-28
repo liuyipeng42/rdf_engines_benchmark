@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/usc-s-institute-for-creative-technologies> ?property ?value }

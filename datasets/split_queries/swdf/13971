@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/sfb-632-universitaet-potsdam> ?property ?value }

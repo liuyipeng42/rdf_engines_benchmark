@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/baden-wuerttemberg-cooperative-state-university-mannheim> ?property ?value }

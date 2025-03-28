@@ -1,0 +1,1 @@
+SELECT DISTINCT ?p ?o WHERE { <http://data.semanticweb.org/organization/freie-universitaet-berlin> ?p ?o }

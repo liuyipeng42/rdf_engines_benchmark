@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/fraunhofer-institute-for-optronics-system-technologies-and-image-exploitation> ?property ?value }

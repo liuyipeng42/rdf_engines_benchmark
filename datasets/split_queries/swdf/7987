@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/bioinformatics-at-centre-for-plant-biotechnology-and-genomics-upm-inia> ?property ?value }

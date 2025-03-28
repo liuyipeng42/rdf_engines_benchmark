@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/seisa-set-expansion-by-iterative-similarity-aggreg/authors> ?property ?value }

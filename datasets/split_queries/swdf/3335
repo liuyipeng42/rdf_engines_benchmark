@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/eswc/2009/tutorial/data-integration-owl2-ql> ?property ?value }

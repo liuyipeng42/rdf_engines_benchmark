@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://nb.vse.cz/~svatek> ?property ?value }

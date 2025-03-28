@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/goldsmiths-college-university-of-london> ?property ?value }

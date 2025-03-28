@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/web-scale-nlp-a-case-study-on-url-word-breaking/authors> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/national-and-kapodistrian-university-of-athens> ?property ?value }

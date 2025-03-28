@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/a-stochastic-learning-to-rank-algorithm-and-its-ap/authors> ?property ?value }

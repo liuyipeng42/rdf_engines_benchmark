@@ -1,0 +1,1 @@
+SELECT DISTINCT ?dClass WHERE { ?inst <http://data.semanticweb.org/ns/swc/ontology#orderInSession> ?val . ?inst <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?dClass }

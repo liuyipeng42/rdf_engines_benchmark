@@ -1,0 +1,1 @@
+SELECT ?val WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . ?x <http://data.semanticweb.org/ns/swc/ontology#holdsRole> ?val } LIMIT 10000

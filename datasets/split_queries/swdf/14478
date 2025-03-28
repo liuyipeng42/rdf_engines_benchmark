@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/computer-engineering-department-of-ege-university> ?property ?value }

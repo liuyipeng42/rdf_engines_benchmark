@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/inesc-id-instituto-superior-tecnico> ?property ?value }

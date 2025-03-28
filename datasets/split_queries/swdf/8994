@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/korea-advanced-institute-of-science-and-technology> ?property ?value }

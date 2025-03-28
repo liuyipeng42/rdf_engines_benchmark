@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/mongolia-japan-center-for-human-resources-developm> ?property ?value }

@@ -1,0 +1,7 @@
+./rdf_engines/ring-basic-p/build/query-index ./rdf_engines/ring-basic-p/index/lubm-100.translated.nt.ring ./dataset_translated/queries/lubm-100/Q1.txt 5000000 | tail -n 5 > ./results/cli/lubm-100/ring/Q1
+./rdf_engines/ring-basic-p/build/query-index ./rdf_engines/ring-basic-p/index/lubm-100.translated.nt.ring ./dataset_translated/queries/lubm-100/Q2.txt 5000000 | tail -n 5 > ./results/cli/lubm-100/ring/Q2
+./rdf_engines/ring-basic-p/build/query-index ./rdf_engines/ring-basic-p/index/lubm-100.translated.nt.ring ./dataset_translated/queries/lubm-100/Q3.txt 5000000 | tail -n 5 > ./results/cli/lubm-100/ring/Q3
+./rdf_engines/ring-basic-p/build/query-index ./rdf_engines/ring-basic-p/index/lubm-100.translated.nt.ring ./dataset_translated/queries/lubm-100/Q4.txt 5000000 | tail -n 5 > ./results/cli/lubm-100/ring/Q4
+./rdf_engines/ring-basic-p/build/query-index ./rdf_engines/ring-basic-p/index/lubm-100.translated.nt.ring ./dataset_translated/queries/lubm-100/Q5.txt 5000000 | tail -n 5 > ./results/cli/lubm-100/ring/Q5
+./rdf_engines/ring-basic-p/build/query-index ./rdf_engines/ring-basic-p/index/lubm-100.translated.nt.ring ./dataset_translated/queries/lubm-100/Q6.txt 5000000 | tail -n 5 > ./results/cli/lubm-100/ring/Q6
+./rdf_engines/ring-basic-p/build/query-index ./rdf_engines/ring-basic-p/index/lubm-100.translated.nt.ring ./dataset_translated/queries/lubm-100/Q7.txt 5000000 | tail -n 5 > ./results/cli/lubm-100/ring/Q7

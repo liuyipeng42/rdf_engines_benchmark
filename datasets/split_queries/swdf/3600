@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.ing.unife.it/docenti/MarcoGavanelli/> ?property ?value }

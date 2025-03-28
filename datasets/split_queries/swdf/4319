@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/centre-for-digital-music-queen-mary-university-of-london> ?property ?value }

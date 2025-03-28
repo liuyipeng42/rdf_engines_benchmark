@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/inria-and-lri-universite-paris-sud-and-cnrs> ?property ?value }

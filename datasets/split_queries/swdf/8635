@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/department-of-speech-music-and-hearing-school-of-c> ?property ?value }

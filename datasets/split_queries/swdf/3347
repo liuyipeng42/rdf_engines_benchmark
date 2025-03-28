@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/rai-radiotelevisione-italiana-centre-for-research-and-technological-innovation> ?property ?value }

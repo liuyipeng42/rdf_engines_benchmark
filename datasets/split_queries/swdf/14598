@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/demo/adapting-a-map-query-interface-for-a-gesturing-tou/authors> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/poster/a-feature-pair-based-associative-classification-ap/authors> ?property ?value }

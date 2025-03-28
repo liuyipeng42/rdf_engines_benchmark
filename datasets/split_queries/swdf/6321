@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/ep-sparql-a-unified-language-for-event-processing-/authors> ?property ?value }

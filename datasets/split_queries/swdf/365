@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/microsoft-research-cambridge-uk> ?property ?value }

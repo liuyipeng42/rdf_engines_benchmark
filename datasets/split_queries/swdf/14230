@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/tiasnimbas-business-school-tilburg-university> ?property ?value }

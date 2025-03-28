@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/vrije-universiteit-brussel-dept-etro-dssp-brussels> ?property ?value }

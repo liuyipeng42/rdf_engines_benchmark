@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/emerging/the-lwazi-community-communication-service-design-a/authors> ?property ?value }

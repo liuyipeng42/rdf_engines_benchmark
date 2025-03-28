@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/vienna-university-of-economics-and-business> ?property ?value }

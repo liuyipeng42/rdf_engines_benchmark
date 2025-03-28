@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/improving-recommendation-for-long-tail-queries-via> ?property ?value }

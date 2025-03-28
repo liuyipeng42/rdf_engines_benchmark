@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/jozef-stefan-institute-cyc-europe> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/phd/summarization-of-archived-and-shared-personal-phot> ?property ?value }

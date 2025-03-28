@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/phd/addressing-the-rdfa-publishing-bottleneck/authors> ?property ?value }

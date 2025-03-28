@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/universite-de-lyon-cnrs-insa-lyon-liris-umr5205-f-69621> ?property ?value }

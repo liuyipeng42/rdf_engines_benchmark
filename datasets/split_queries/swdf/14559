@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/the-web-of-topics-discovering-the-topology-of-topi> ?property ?value }

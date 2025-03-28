@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/a-i-group-faculty-of-technology-bielefeld-university-germany> ?property ?value }

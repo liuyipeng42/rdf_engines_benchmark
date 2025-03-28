@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/ontology-engineering-group-departamento-de-inteligencia-artificial-facultad-de-informatica-universidad-politecnica-de-madrid> ?property ?value }

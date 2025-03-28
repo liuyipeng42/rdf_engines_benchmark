@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/magellan-universite-lyon-3-iae> ?property ?value }

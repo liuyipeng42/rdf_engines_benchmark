@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/swiss-institute-of-technology-lausanne-university> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/ben-gurion-university-of-the-negev> ?property ?value }

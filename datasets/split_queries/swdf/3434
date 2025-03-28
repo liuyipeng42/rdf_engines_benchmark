@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/institut-telecom-telecom-paristech-cnrs-ltci> ?property ?value }

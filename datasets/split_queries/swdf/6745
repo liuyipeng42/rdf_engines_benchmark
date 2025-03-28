@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/centro-de-linguistica-da-universidade-nova-de-lisb> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/knowledge-and-data-engineering-trinity-college-dublin> ?property ?value }

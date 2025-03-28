@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/person/francis-de-la-c-fernandez-reyes> ?property ?value }

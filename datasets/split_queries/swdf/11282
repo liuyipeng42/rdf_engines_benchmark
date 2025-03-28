@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/sap-research-center-palo-alto-lcc> ?property ?value }

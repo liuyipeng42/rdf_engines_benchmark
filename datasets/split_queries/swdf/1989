@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.openlinksw.com/virtrdf-data-formats#sql-doubleprecision-uri-fn-nullable> ?property ?value }

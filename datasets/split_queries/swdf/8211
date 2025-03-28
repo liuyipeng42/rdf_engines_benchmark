@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/universite-toulouse-1-capitole-faculte-d-informatique> ?property ?value }

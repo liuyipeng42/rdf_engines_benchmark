@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/technische-universitaet-darmstadt> ?property ?value }

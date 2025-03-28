@@ -1,0 +1,1 @@
+SELECT ?o WHERE { <http://data.semanticweb.org/organization/language-technologies-institute-carnegie-mellon-un> <http://xmlns.com/foaf/0.1/name> ?o }

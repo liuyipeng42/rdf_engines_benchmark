@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/demo/t-recs-team-recommendation-system-through-expertis> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/demo/cate-context-aware-timeline-for-entity-illustratio/authors> ?property ?value }

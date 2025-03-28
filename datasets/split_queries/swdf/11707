@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/inria-ecole-des-mines-de-nantes> ?property ?value }

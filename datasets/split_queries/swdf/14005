@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/person/jay-kuan-chieh-chung> ?property ?value }

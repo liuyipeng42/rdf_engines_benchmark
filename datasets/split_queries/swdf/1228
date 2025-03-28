@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/image-pervasive-access-lab-ipal-umi-cnrs> ?property ?value }

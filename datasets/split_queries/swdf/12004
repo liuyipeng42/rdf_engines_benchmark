@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/emerging/assistive-technology-for-vision-impairments-an-age> ?property ?value }

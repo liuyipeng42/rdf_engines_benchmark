@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/bauhaus-universitaet-weimar> ?property ?value }

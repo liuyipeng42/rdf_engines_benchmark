@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/free-university-of-bozen-bolzano/location> ?property ?value }

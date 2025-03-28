@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/swiss-federal-institute-for-forest-snow-and-landscape-research> ?property ?value }

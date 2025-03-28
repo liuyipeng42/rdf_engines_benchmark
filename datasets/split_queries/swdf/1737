@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/sils-metadata-research-center-university-of-north-carolina> ?property ?value }

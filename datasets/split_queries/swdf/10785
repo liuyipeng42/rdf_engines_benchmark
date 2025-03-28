@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/laboratoire-dinformatique-de-luniversit-paris-nord-lipn-umr-7030-universit-paris-13-cnrs> ?property ?value }

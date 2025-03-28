@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/university-of-north-carolina-at-chapel-hill> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/learning-to-re-rank-query-dependent-image-re-ranki> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/state-university-of-new-york-at-stony-brook> ?property ?value }

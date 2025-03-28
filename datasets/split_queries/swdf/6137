@@ -1,0 +1,1 @@
+SELECT DISTINCT ?d ?e WHERE { ?a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.semanticweb.org/ns/swc/ontology#WorkshopChair> . ?c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?d . }

@@ -1,0 +1,1 @@
+SELECT * WHERE { <http://data.semanticweb.org/organization/ghent-university> ?p ?o }

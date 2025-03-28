@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/ludwig-maximilian-university-of-munich> ?property ?value }

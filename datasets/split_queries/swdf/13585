@@ -1,0 +1,1 @@
+SELECT ?o ?p WHERE { <http://data.semanticweb.org/organization/arizona-state-university> ?p ?o }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://wit.istc.cnr.it/eswc-stc/workshops-calendar.rdf#5bbe9bbb-d2d6-38a6-8871-75553caa7d94_27> ?property ?value }

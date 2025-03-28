@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/universit-degli-studi-di-roma-la-sapienza> ?property ?value }

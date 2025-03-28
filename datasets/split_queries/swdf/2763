@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/demo/truthy-mapping-the-spread-of-astroturf-in-microblo> ?property ?value }

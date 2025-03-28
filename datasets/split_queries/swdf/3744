@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/inverted-index-compression-via-online-document-rou> ?property ?value }

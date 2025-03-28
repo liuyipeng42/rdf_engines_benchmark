@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/fh-potsdam-w3c-german-austrian-office> ?property ?value }

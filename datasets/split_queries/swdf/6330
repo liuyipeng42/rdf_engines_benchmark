@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/department-of-cybernetics-faculty-of-applied-scien> ?property ?value }

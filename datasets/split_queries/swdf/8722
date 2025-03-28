@@ -1,0 +1,1 @@
+SELECT DISTINCT ?d ?e WHERE { ?a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.deri.org/2005/08/conf/cfp.owl#CallForPapers> . ?c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?d . }

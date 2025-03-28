@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/iswc-aswc/2007/tracks/in-use/session/in-use-1-making-value> ?property ?value }

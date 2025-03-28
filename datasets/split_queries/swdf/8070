@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/unilever-centre-for-molecular-informatics-universi> ?property ?value }

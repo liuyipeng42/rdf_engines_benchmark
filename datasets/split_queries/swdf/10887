@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/universit-de-technologie-de-troyes-utt> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/institut-aifb-universitaet-karlsruhe-ksri-university-of-karlsruhe-th> ?property ?value }

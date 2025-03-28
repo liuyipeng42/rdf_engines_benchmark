@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/department-of-social-informatics-graduate-school-of-informatics-kyoto-university> ?property ?value }

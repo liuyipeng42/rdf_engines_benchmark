@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/school-of-dental-medicine-university-of-pittsburgh> ?property ?value }

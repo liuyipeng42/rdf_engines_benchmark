@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/dep-of-physics-slacs-cnr-infm-university-of-cagliari-and-linkalab> ?property ?value }

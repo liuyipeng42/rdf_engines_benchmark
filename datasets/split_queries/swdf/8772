@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/rr/2009/tutorials/uncertainty-reasoning-for-the-semantic-web/presenter> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/dynamics-of-bidding-in-a-p2p-lending-service-effec/authors> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/dept-of-eecs-and-school-of-information-university-of-michigan> ?property ?value }

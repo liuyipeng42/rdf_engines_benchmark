@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/knowledge-media-institute-open-university-u-k> ?property ?value }

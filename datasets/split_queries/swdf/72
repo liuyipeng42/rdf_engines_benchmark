@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/polytechnic-institute-of-new-york-university> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/masaryk-university-brno-czech-republic> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/laboratoire-dinformatique-de-paris-6-lip6-> ?property ?value }

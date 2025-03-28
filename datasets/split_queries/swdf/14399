@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/fis/2010/paper/internet_of_services_things_content/1/authors> ?property ?value }

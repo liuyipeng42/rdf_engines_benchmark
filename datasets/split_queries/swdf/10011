@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/leibniz-university-hannover/location> ?property ?value }

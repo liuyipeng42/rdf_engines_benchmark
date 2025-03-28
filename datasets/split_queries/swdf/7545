@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/l2f-inesc-id-clul-lisboa> ?property ?value }

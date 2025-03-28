@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/swiss-federal-research-institute-wsl> ?property ?value }

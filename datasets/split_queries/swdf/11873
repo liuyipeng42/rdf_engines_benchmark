@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/universidade-federal-de-santa-catarina> ?property ?value }

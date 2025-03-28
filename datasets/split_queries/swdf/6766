@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.his.se/templates/vanligwebbsida2.aspx?id=12900> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www.openlinksw.com/virtrdf-data-formats#multipart-literal-fn-nullable> ?property ?value }

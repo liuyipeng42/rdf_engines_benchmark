@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/netherlands-institute-for-sound-and-vision-and-vu-university-amsterdam> ?property ?value }

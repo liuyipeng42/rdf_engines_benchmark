@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/grenoble-institute-of-technology-inpg/location> ?property ?value }

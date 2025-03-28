@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/university-of-bucharest-faculty-of-foreign-languag> ?property ?value }

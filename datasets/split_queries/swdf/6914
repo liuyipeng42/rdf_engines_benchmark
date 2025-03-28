@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/universitat-pompeu-fabra-web-and-nlp-reseach-groups> ?property ?value }

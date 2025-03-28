@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/federal-university-of-ouro-preto-ufop> ?property ?value }

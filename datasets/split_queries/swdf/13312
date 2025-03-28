@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/telecommunication-information-studies-and-media-michigan-state-university> ?property ?value }

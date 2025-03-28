@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/rr/2010/invitedTalks/query-answering-under-non-guarded-rules-in-datalog/speaker> ?property ?value }

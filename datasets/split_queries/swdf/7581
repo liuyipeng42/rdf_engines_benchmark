@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/institute-for-human-and-machine-cognition/location> ?property ?value }

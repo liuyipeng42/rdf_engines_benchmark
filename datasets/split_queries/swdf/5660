@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://sisinflab.poliba.it/donini/> ?property ?value }

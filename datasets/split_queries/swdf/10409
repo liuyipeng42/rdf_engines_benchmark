@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/counting-triangles-and-the-curse-of-the-last-reduc> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/umr-cnrs-6599-heudiasyc-university-of-technology-of-compiegne> ?property ?value }

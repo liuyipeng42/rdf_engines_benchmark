@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/poster/harnessing-the-wisdom-of-crowds-video-event-detect/authors> ?property ?value }

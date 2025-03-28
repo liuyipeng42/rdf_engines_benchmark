@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/poster/web-information-extraction-using-markov-logic-netw/authors> ?property ?value }

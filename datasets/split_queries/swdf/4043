@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/adaptive-policies-for-selecting-groupon-style-chun/authors> ?property ?value }

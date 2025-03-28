@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/interactive-systems-and-interaction-design-university-of-duisburg-essen> ?property ?value }

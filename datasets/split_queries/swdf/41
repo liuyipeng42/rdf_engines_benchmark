@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/dept-of-medicine-and-human-genetics-university-of-chicago> ?property ?value }

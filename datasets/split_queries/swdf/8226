@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/department-of-anesthesiology-and-intensive-care-medicine-university-medical-center-schleswig-holstein-campus-kiel-kiel> ?property ?value }

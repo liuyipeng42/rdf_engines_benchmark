@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://www-lsr.imag.fr/Les.Personnes/Marie-Christine.Rousset/> ?property ?value }

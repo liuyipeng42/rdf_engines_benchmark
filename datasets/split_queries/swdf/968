@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/faculty-of-arts-university-of-ljubljana> ?property ?value }

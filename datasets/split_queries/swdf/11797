@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/track-globally-deliver-locally-improving-content-d/authors> ?property ?value }

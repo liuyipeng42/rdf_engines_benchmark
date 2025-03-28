@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/nstitute-of-computer-science-technology-peking-university-beijing-china> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/accademia-nazionale-di-santa-cecilia> ?property ?value }

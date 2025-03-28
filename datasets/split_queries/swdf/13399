@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/ecole-centrale-paris-mas-laboratory-business-intelligence-team> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/computer-engineering-and-informatics-department-university-of-patras-gr-26504-rio-patras-greece> ?property ?value }

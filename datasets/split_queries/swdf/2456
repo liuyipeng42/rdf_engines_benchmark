@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/characterizing-search-intent-diversity-into-click-> ?property ?value }

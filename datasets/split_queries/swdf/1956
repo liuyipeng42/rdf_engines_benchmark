@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/kiel-university-and-leibniz-information-center-for-economics-kiel-germany> ?property ?value }

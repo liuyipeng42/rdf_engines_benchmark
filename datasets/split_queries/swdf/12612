@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/paper/a-case-for-query-by-image-and-text-content-searchi/authors> ?property ?value }

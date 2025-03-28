@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/grinbd-universidad-de-valladolid> ?property ?value }

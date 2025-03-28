@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/united-states-army-research-laboratory> ?property ?value }

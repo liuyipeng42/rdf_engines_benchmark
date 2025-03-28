@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/nlp-research-group-dept-of-computer-sci-the-univer> ?property ?value }

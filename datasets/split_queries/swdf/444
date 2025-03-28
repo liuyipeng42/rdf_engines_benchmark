@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/instituto-de-biocomputacion-y-fisica-de-sistemas-complejos-universidad-de-zaragoza-zaragoza-50009-spain> ?property ?value }

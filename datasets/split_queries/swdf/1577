@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/bas-bavarian-archive-for-speech-signals> ?property ?value }

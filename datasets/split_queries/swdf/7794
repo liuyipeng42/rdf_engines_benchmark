@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/kdz-centre-for-public-administration-research> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/conference/www/2011/phd/a-politeness-recognition-tool-for-hindi-with-speci> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/respiratory-department-unidad-de-trastornos-respir> ?property ?value }

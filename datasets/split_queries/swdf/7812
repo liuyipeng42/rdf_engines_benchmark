@@ -1,0 +1,1 @@
+SELECT ?member WHERE { <http://data.semanticweb.org/organization/ghent-university> <http://xmlns.com/foaf/0.1/member> ?member }

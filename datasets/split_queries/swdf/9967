@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/iicm-institute-for-information-systems-and-computer-media> ?property ?value }

@@ -1,0 +1,1 @@
+SELECT DISTINCT ?a ?b WHERE { <http://data.semanticweb.org/conference/iswc-aswc/2007/tracks/doctoral-consortium/papers/950> ?a ?b } LIMIT 10

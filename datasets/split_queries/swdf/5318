@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/pontificia-universidade-catolica-do-rio-grande-do-> ?property ?value }

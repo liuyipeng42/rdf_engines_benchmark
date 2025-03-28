@@ -1,0 +1,1 @@
+SELECT ?property ?value WHERE { <http://data.semanticweb.org/organization/lab-of-medical-physics-medical-school-democritus-university-of-thrace> ?property ?value }
