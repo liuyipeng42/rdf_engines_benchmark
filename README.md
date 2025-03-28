@@ -1,5 +1,5 @@
 # RDF Engines Benchmark
-This repository contains benchmarks for various RDF engines using both command-line interfaces and SPARQL endpoints. The engines benchmarked include RDF-3X, Ring, Tentris, and Jena-LTJ.
+This repository contains benchmarks for various RDF engines using both command-line interfaces and SPARQL endpoints. The engines benchmarked include RDF-3X, Ring, Tentris, Jena-LTJ, gStore and MillenniumDB.
 
 ## Installation
 
@@ -20,14 +20,20 @@ Datasets are available [here](https://mega.nz/folder/5ulXkYZT#j54ThyZBnX34_VANel
 To run the benchmarks, use the following commands:
 
 ```bash
-python ./scripts/endpoint.py <dataset_path> <rdf_engine>
+python ./scripts/endpoint.py <dataset> <rdf_engine>
 ./scripts/cli/rdf-tdaa/watdiv.sh
 ./scripts/cli/rdf-tdaa/wgpb.sh
 ./scripts/cli/rdf-tdaa/dbpedia.sh
+./scripts/cli/rdf-tdaa/swdf.sh
+./scripts/cli/rdf-tdaa/yago2.sh
 ./scripts/cli/rdf-3x/watdiv.sh
 ./scripts/cli/rdf-3x/wgpb.sh
 ./scripts/cli/rdf-3x/dbpedia.sh
+./scripts/cli/rdf-3x/swdf.sh
+./scripts/cli/rdf-3x/yago2.sh
 ./scripts/cli/ring/watdiv.sh
 ./scripts/cli/ring/wgpb.sh
 ./scripts/cli/ring/dbpedia.sh
+./scripts/cli/ring/swdf.sh
+./scripts/cli/ring/yago2.sh
 ```
